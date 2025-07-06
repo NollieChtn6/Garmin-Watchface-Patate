@@ -133,8 +133,15 @@ class PatateWatchView extends WatchUi.WatchFace {
     }
 
     function getHeartRateString() as String {
-        return getHeartRate().format("%d");
-    }
+        var heartrateIterator = Toybox.ActivityMonitor.getHeartRateHistory(1, true);
+        var heartRateSample = heartrateIterator.next();
+
+        if (heartRateSample == null || heartRateSample.heartRate == null || heartRateSample.heartRate <= 0) {
+            return "--";
+        }
+
+        return heartRateSample.heartRate.format("%d");
+        }
 
     function getSteps() as Number or Null {
     return Toybox.ActivityMonitor.getInfo().steps;
