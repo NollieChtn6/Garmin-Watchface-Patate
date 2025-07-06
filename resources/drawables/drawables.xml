@@ -3,4 +3,5 @@
     <bitmap id="HeartIconDrawable" filename="heart-pulse_icon.png"/>
     <bitmap id="StepsDrawable" filename="footprints_icon.png"/>
     <bitmap id="RedHeart" filename="heart.png"/>
+    <bitmap id="BackgroundImage" filename="background.png"/>
 </drawables>
