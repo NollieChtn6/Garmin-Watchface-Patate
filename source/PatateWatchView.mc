@@ -75,6 +75,8 @@ class PatateWatchView extends WatchUi.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
+        drawBatteryBar(dc);
+
         //drawReferenceLines(dc as Dc);
     }
 
@@ -168,5 +170,34 @@ function getBattery() as Float {
 function getBatteryString() as String {
     return getBattery().format("%d") + "%";
 }
+
+function drawBatteryBar(dc as Dc) as Void {
+    var batteryLevel = getBattery(); 
+    var WIDTH = 30;
+    var HEIGHT = 12;
+    var TIP_WIDTH = 3;
+    var TIP_HEIGHT = HEIGHT / 2;
+    var x = (dc.getHeight() * 0.45).toNumber(); 
+    var y = (dc.getHeight() * 0.15).toNumber(); 
+
+    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+    dc.drawRectangle(x, y, WIDTH, HEIGHT);
+
+    var tipX = x + WIDTH;
+    var tipY = y + (HEIGHT - TIP_HEIGHT) / 2;
+    dc.fillRectangle(tipX, tipY, TIP_WIDTH, TIP_HEIGHT);
+
+    
+    if (batteryLevel < 20) {
+        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+    } else if (batteryLevel < 50) {
+        dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+    } else {
+        dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+    }
+
+    var fillWidth = ((batteryLevel / 100.0) * (WIDTH - 2)).toFloat();
+    dc.fillRectangle(x + 1, y + 1, fillWidth, HEIGHT - 2);
+    }
 
 }
