@@ -42,8 +42,8 @@ class PatateWatchView extends WatchUi.WatchFace {
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
         // Update screen message
-        var helloYouLabel = View.findDrawableById("HelloYou") as Text;
-        helloYouLabel.setText("Hello You!");
+        // var helloYouLabel = View.findDrawableById("HelloYou") as Text;
+        // helloYouLabel.setText("Hello You!");
 
         // Update the date label
         var dateLabel = View.findDrawableById("DateLabel") as Text;
@@ -69,7 +69,7 @@ class PatateWatchView extends WatchUi.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
-        drawReferenceLines(dc as Dc);
+        //drawReferenceLines(dc as Dc);
     }
 
     // Called when this View is removed from the screen. Save the
