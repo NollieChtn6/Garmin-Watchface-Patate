@@ -26,20 +26,26 @@ class PatateWatchView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$";
+        // var timeFormat = "$1$:$2$";
+        // var clockTime = System.getClockTime();
+        // var hours = clockTime.hour;
+        // if (!System.getDeviceSettings().is24Hour) {
+        //     if (hours > 12) {
+        //         hours = hours - 12;
+        //     }
+        // } else {
+        //     if (Application.Properties.getValue("UseMilitaryFormat")) {
+        //         timeFormat = "$1$$2$";
+        //         hours = hours.format("%02d");
+        //     }
+        // }
+        // var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+
         var clockTime = System.getClockTime();
-        var hours = clockTime.hour;
-        if (!System.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (Application.Properties.getValue("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
-        }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+        var hours = clockTime.hour.format("%02d");
+        var minutes = clockTime.min.format("%02d");
+
+        var timeString = Lang.format("$1$:$2$", [hours, minutes]);
 
         // Update screen message
         // var helloYouLabel = View.findDrawableById("HelloYou") as Text;
