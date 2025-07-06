@@ -1,7 +1,9 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <drawable class="Background" />
 
-    <label id="BatteryLabel" x="center" y="10%" font="Graphics.FONT_SYSTEM_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
+    <bitmap id="BackgroundImage" x="0" y="0" filename="../drawables/background.png"/>
+
+    <label id="BatteryLabel" x="center" y="10%" font="Graphics.FONT_SYSTEM_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     
     <bitmap id="RedHeart" x="60%" y="25%" filename="../drawables/heart.png"/>
     <label id="HelloYou" x="40%" y="25%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE"/>
