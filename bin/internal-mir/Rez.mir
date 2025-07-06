@@ -1,0 +1,1982 @@
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Layouts,12,11,18]; ]
+    module Layouts {
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 13; @symbol_functiondef = [WatchFace,13,17,26]; @symbol_param<0> = [dc,13,27,29]; @symbol_param<0>_type<0> = [Graphics,13,33,41]; @symbol_param<0>_type<1> = [Dc,13,42,44]; @symbol_return<0> = [Array,13,49,54]; @symbol_return<1> = [WatchUi,13,55,62]; @symbol_return<2> = [Drawable,13,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 14 12 ]
+            [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_stop" ]
+            %rez_cmp_local_custom_drawable_11939594661139614796.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 14 16 66 ];
+            symbol [ Background %tmp.4 14 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_11939594661139614796.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 14 16 66 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 16 12 ]
+            [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_stop" ]
+            %rez_cmp_local_text_BatteryLabel.2 = local;
+            symbol [ rez_cmp_local_text_BatteryLabel %rez_cmp_local_text_BatteryLabel.2 16 16 47 ];
+            symbol [ WatchUi %tmp.7 16 54 61 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 16 62 66 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 16 69 79 const ];
+            %tmp.12 = "BatteryLabel";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 16 98 103 const ];
+            symbol [ Graphics %tmp.17 16 105 113 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_LT_GRAY %tmp.18 16 114 127 ];
+            %tmp.18 = getv %tmp.17 :COLOR_LT_GRAY;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 16 130 134 const ];
+            %tmp.23 = 360;
+            %tmp.24 = 0.5;
+            %tmp.25 = mul %tmp.23 %tmp.24;
+            %tmp.26 = dup %tmp.20;
+            %tmp.27 = aputv %tmp.26 %tmp.22 %tmp.25;
+            %tmp.29 = const :locY;
+            symbol [ locY %tmp.29 16 150 154 const ];
+            %tmp.30 = 360;
+            %tmp.31 = 10;
+            %tmp.32 = 100.0;
+            %tmp.33 = div %tmp.31 %tmp.32;
+            %tmp.34 = mul %tmp.30 %tmp.33;
+            %tmp.35 = dup %tmp.27;
+            %tmp.36 = aputv %tmp.35 %tmp.29 %tmp.34;
+            %tmp.38 = const :justification;
+            symbol [ justification %tmp.38 16 179 192 const ];
+            symbol [ Graphics %tmp.39 16 194 202 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.40 16 203 222 ];
+            %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.44 = const :font;
+            symbol [ font %tmp.44 16 225 229 const ];
+            symbol [ Graphics %tmp.45 16 231 239 ];
+            %tmp.45 = getm $.Toybox.Graphics;
+            symbol [ FONT_SYSTEM_XTINY %tmp.46 16 240 257 ];
+            %tmp.46 = getv %tmp.45 :FONT_SYSTEM_XTINY;
+            %tmp.47 = dup %tmp.42;
+            %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
+            %tmp.5 = newc %tmp.8 (%tmp.48);
+            lputv %rez_cmp_local_text_BatteryLabel.2 %tmp.5;
+            symbol [ rez_cmp_local_text_BatteryLabel %rez_cmp_local_text_BatteryLabel.2 16 16 47 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 18 12 ]
+            [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_stop" ]
+            %rez_cmp_local_text_HelloYou.3 = local;
+            symbol [ rez_cmp_local_text_HelloYou %rez_cmp_local_text_HelloYou.3 18 16 43 ];
+            symbol [ WatchUi %tmp.51 18 50 57 ];
+            %tmp.51 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.52 18 58 62 ];
+            %tmp.52 = getv function ? %tmp.51 :Text;
+            %tmp.53 = newd 6;
+            %tmp.55 = const :identifier;
+            symbol [ identifier %tmp.55 18 65 75 const ];
+            %tmp.56 = "HelloYou";
+            %tmp.57 = dup %tmp.53;
+            %tmp.58 = aputv %tmp.57 %tmp.55 %tmp.56;
+            %tmp.60 = const :color;
+            symbol [ color %tmp.60 18 90 95 const ];
+            symbol [ Graphics %tmp.61 18 97 105 ];
+            %tmp.61 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.62 18 106 117 ];
+            %tmp.62 = getv %tmp.61 :COLOR_WHITE;
+            %tmp.63 = dup %tmp.58;
+            %tmp.64 = aputv %tmp.63 %tmp.60 %tmp.62;
+            %tmp.66 = const :locX;
+            symbol [ locX %tmp.66 18 120 124 const ];
+            %tmp.67 = 360;
+            %tmp.68 = 0.5;
+            %tmp.69 = mul %tmp.67 %tmp.68;
+            %tmp.70 = dup %tmp.64;
+            %tmp.71 = aputv %tmp.70 %tmp.66 %tmp.69;
+            %tmp.73 = const :locY;
+            symbol [ locY %tmp.73 18 140 144 const ];
+            %tmp.74 = 360;
+            %tmp.75 = 25;
+            %tmp.76 = 100.0;
+            %tmp.77 = div %tmp.75 %tmp.76;
+            %tmp.78 = mul %tmp.74 %tmp.77;
+            %tmp.79 = dup %tmp.71;
+            %tmp.80 = aputv %tmp.79 %tmp.73 %tmp.78;
+            %tmp.82 = const :justification;
+            symbol [ justification %tmp.82 18 169 182 const ];
+            symbol [ Graphics %tmp.83 18 184 192 ];
+            %tmp.83 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.84 18 193 212 ];
+            %tmp.84 = getv %tmp.83 :TEXT_JUSTIFY_CENTER;
+            %tmp.85 = dup %tmp.80;
+            %tmp.86 = aputv %tmp.85 %tmp.82 %tmp.84;
+            %tmp.88 = const :font;
+            symbol [ font %tmp.88 18 215 219 const ];
+            symbol [ Graphics %tmp.89 18 221 229 ];
+            %tmp.89 = getm $.Toybox.Graphics;
+            symbol [ FONT_TINY %tmp.90 18 230 239 ];
+            %tmp.90 = getv %tmp.89 :FONT_TINY;
+            %tmp.91 = dup %tmp.86;
+            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
+            %tmp.49 = newc %tmp.52 (%tmp.92);
+            lputv %rez_cmp_local_text_HelloYou.3 %tmp.49;
+            symbol [ rez_cmp_local_text_HelloYou %rez_cmp_local_text_HelloYou.3 18 16 43 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 20 12 ]
+            [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.4 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.4 20 16 44 ];
+            symbol [ WatchUi %tmp.95 20 51 58 ];
+            %tmp.95 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.96 20 59 63 ];
+            %tmp.96 = getv function ? %tmp.95 :Text;
+            %tmp.97 = newd 6;
+            %tmp.99 = const :identifier;
+            symbol [ identifier %tmp.99 20 66 76 const ];
+            %tmp.100 = "TimeLabel";
+            %tmp.101 = dup %tmp.97;
+            %tmp.102 = aputv %tmp.101 %tmp.99 %tmp.100;
+            %tmp.104 = const :color;
+            symbol [ color %tmp.104 20 92 97 const ];
+            symbol [ Graphics %tmp.105 20 99 107 ];
+            %tmp.105 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.106 20 108 119 ];
+            %tmp.106 = getv %tmp.105 :COLOR_WHITE;
+            %tmp.107 = dup %tmp.102;
+            %tmp.108 = aputv %tmp.107 %tmp.104 %tmp.106;
+            %tmp.110 = const :locX;
+            symbol [ locX %tmp.110 20 122 126 const ];
+            %tmp.111 = 360;
+            %tmp.112 = 0.5;
+            %tmp.113 = mul %tmp.111 %tmp.112;
+            %tmp.114 = dup %tmp.108;
+            %tmp.115 = aputv %tmp.114 %tmp.110 %tmp.113;
+            %tmp.117 = const :locY;
+            symbol [ locY %tmp.117 20 142 146 const ];
+            %tmp.118 = 360;
+            %tmp.119 = lgetv %dc;
+            symbol [ dc %tmp.119 20 156 158 ];
+            symbol [ getFontHeight %tmp.120 20 159 172 ];
+            %tmp.120 = getv function %tmp.119 :getFontHeight;
+            symbol [ Graphics %tmp.121 20 173 181 ];
+            %tmp.121 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.122 20 182 192 ];
+            %tmp.122 = getv %tmp.121 :FONT_LARGE;
+            %tmp.123 = invoke %tmp.119 %tmp.120(%tmp.122);
+            %tmp.124 = sub %tmp.118 %tmp.123;
+            %tmp.125 = 0.5;
+            %tmp.126 = mul %tmp.124 %tmp.125;
+            %tmp.127 = dup %tmp.115;
+            %tmp.128 = aputv %tmp.127 %tmp.117 %tmp.126;
+            %tmp.130 = const :justification;
+            symbol [ justification %tmp.130 20 204 217 const ];
+            symbol [ Graphics %tmp.131 20 219 227 ];
+            %tmp.131 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.132 20 228 247 ];
+            %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_CENTER;
+            %tmp.133 = dup %tmp.128;
+            %tmp.134 = aputv %tmp.133 %tmp.130 %tmp.132;
+            %tmp.136 = const :font;
+            symbol [ font %tmp.136 20 250 254 const ];
+            symbol [ Graphics %tmp.137 20 256 264 ];
+            %tmp.137 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.138 20 265 275 ];
+            %tmp.138 = getv %tmp.137 :FONT_LARGE;
+            %tmp.139 = dup %tmp.134;
+            %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
+            %tmp.93 = newc %tmp.96 (%tmp.140);
+            lputv %rez_cmp_local_text_TimeLabel.4 %tmp.93;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.4 20 16 44 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 22 12 ]
+            [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_stop" ]
+            %rez_cmp_local_text_DateLabel.5 = local;
+            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.5 22 16 44 ];
+            symbol [ WatchUi %tmp.143 22 51 58 ];
+            %tmp.143 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.144 22 59 63 ];
+            %tmp.144 = getv function ? %tmp.143 :Text;
+            %tmp.145 = newd 6;
+            %tmp.147 = const :identifier;
+            symbol [ identifier %tmp.147 22 66 76 const ];
+            %tmp.148 = "DateLabel";
+            %tmp.149 = dup %tmp.145;
+            %tmp.150 = aputv %tmp.149 %tmp.147 %tmp.148;
+            %tmp.152 = const :color;
+            symbol [ color %tmp.152 22 92 97 const ];
+            symbol [ Graphics %tmp.153 22 99 107 ];
+            %tmp.153 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.154 22 108 119 ];
+            %tmp.154 = getv %tmp.153 :COLOR_WHITE;
+            %tmp.155 = dup %tmp.150;
+            %tmp.156 = aputv %tmp.155 %tmp.152 %tmp.154;
+            %tmp.158 = const :locX;
+            symbol [ locX %tmp.158 22 122 126 const ];
+            %tmp.159 = 360;
+            %tmp.160 = 85;
+            %tmp.161 = 100.0;
+            %tmp.162 = div %tmp.160 %tmp.161;
+            %tmp.163 = mul %tmp.159 %tmp.162;
+            %tmp.164 = dup %tmp.156;
+            %tmp.165 = aputv %tmp.164 %tmp.158 %tmp.163;
+            %tmp.167 = const :locY;
+            symbol [ locY %tmp.167 22 151 155 const ];
+            %tmp.168 = 360;
+            %tmp.169 = lgetv %dc;
+            symbol [ dc %tmp.169 22 165 167 ];
+            symbol [ getFontHeight %tmp.170 22 168 181 ];
+            %tmp.170 = getv function %tmp.169 :getFontHeight;
+            symbol [ Graphics %tmp.171 22 182 190 ];
+            %tmp.171 = getm $.Toybox.Graphics;
+            symbol [ FONT_XTINY %tmp.172 22 191 201 ];
+            %tmp.172 = getv %tmp.171 :FONT_XTINY;
+            %tmp.173 = invoke %tmp.169 %tmp.170(%tmp.172);
+            %tmp.174 = sub %tmp.168 %tmp.173;
+            %tmp.175 = 0.5;
+            %tmp.176 = mul %tmp.174 %tmp.175;
+            %tmp.177 = dup %tmp.165;
+            %tmp.178 = aputv %tmp.177 %tmp.167 %tmp.176;
+            %tmp.180 = const :justification;
+            symbol [ justification %tmp.180 22 213 226 const ];
+            symbol [ Graphics %tmp.181 22 228 236 ];
+            %tmp.181 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.182 22 237 256 ];
+            %tmp.182 = getv %tmp.181 :TEXT_JUSTIFY_CENTER;
+            %tmp.183 = dup %tmp.178;
+            %tmp.184 = aputv %tmp.183 %tmp.180 %tmp.182;
+            %tmp.186 = const :font;
+            symbol [ font %tmp.186 22 259 263 const ];
+            symbol [ Graphics %tmp.187 22 265 273 ];
+            %tmp.187 = getm $.Toybox.Graphics;
+            symbol [ FONT_XTINY %tmp.188 22 274 284 ];
+            %tmp.188 = getv %tmp.187 :FONT_XTINY;
+            %tmp.189 = dup %tmp.184;
+            %tmp.190 = aputv %tmp.189 %tmp.186 %tmp.188;
+            %tmp.141 = newc %tmp.144 (%tmp.190);
+            lputv %rez_cmp_local_text_DateLabel.5 %tmp.141;
+            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.5 22 16 44 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 24 12 ]
+            [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_stop" ]
+            %rez_cmp_local_text_StepsLabel.6 = local;
+            symbol [ rez_cmp_local_text_StepsLabel %rez_cmp_local_text_StepsLabel.6 24 16 45 ];
+            symbol [ WatchUi %tmp.193 24 52 59 ];
+            %tmp.193 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.194 24 60 64 ];
+            %tmp.194 = getv function ? %tmp.193 :Text;
+            %tmp.195 = newd 6;
+            %tmp.197 = const :identifier;
+            symbol [ identifier %tmp.197 24 67 77 const ];
+            %tmp.198 = "StepsLabel";
+            %tmp.199 = dup %tmp.195;
+            %tmp.200 = aputv %tmp.199 %tmp.197 %tmp.198;
+            %tmp.202 = const :color;
+            symbol [ color %tmp.202 24 94 99 const ];
+            symbol [ Graphics %tmp.203 24 101 109 ];
+            %tmp.203 = getm $.Toybox.Graphics;
+            symbol [ COLOR_ORANGE %tmp.204 24 110 122 ];
+            %tmp.204 = getv %tmp.203 :COLOR_ORANGE;
+            %tmp.205 = dup %tmp.200;
+            %tmp.206 = aputv %tmp.205 %tmp.202 %tmp.204;
+            %tmp.208 = const :locX;
+            symbol [ locX %tmp.208 24 125 129 const ];
+            %tmp.209 = 360;
+            %tmp.210 = 0.5;
+            %tmp.211 = mul %tmp.209 %tmp.210;
+            %tmp.212 = dup %tmp.206;
+            %tmp.213 = aputv %tmp.212 %tmp.208 %tmp.211;
+            %tmp.215 = const :locY;
+            symbol [ locY %tmp.215 24 145 149 const ];
+            %tmp.216 = 360;
+            %tmp.217 = 85;
+            %tmp.218 = 100.0;
+            %tmp.219 = div %tmp.217 %tmp.218;
+            %tmp.220 = mul %tmp.216 %tmp.219;
+            %tmp.221 = dup %tmp.213;
+            %tmp.222 = aputv %tmp.221 %tmp.215 %tmp.220;
+            %tmp.224 = const :justification;
+            symbol [ justification %tmp.224 24 174 187 const ];
+            symbol [ Graphics %tmp.225 24 189 197 ];
+            %tmp.225 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.226 24 198 217 ];
+            %tmp.226 = getv %tmp.225 :TEXT_JUSTIFY_CENTER;
+            %tmp.227 = dup %tmp.222;
+            %tmp.228 = aputv %tmp.227 %tmp.224 %tmp.226;
+            %tmp.230 = const :font;
+            symbol [ font %tmp.230 24 220 224 const ];
+            symbol [ Graphics %tmp.231 24 226 234 ];
+            %tmp.231 = getm $.Toybox.Graphics;
+            symbol [ FONT_SYSTEM_XTINY %tmp.232 24 235 252 ];
+            %tmp.232 = getv %tmp.231 :FONT_SYSTEM_XTINY;
+            %tmp.233 = dup %tmp.228;
+            %tmp.234 = aputv %tmp.233 %tmp.230 %tmp.232;
+            %tmp.191 = newc %tmp.194 (%tmp.234);
+            lputv %rez_cmp_local_text_StepsLabel.6 %tmp.191;
+            symbol [ rez_cmp_local_text_StepsLabel %rez_cmp_local_text_StepsLabel.6 24 16 45 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 26 12 ]
+            [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_stop" ]
+            %rez_cmp_local_text_HeartRateLabel.7 = local;
+            symbol [ rez_cmp_local_text_HeartRateLabel %rez_cmp_local_text_HeartRateLabel.7 26 16 49 ];
+            symbol [ WatchUi %tmp.237 26 56 63 ];
+            %tmp.237 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.238 26 64 68 ];
+            %tmp.238 = getv function ? %tmp.237 :Text;
+            %tmp.239 = newd 6;
+            %tmp.241 = const :identifier;
+            symbol [ identifier %tmp.241 26 71 81 const ];
+            %tmp.242 = "HeartRateLabel";
+            %tmp.243 = dup %tmp.239;
+            %tmp.244 = aputv %tmp.243 %tmp.241 %tmp.242;
+            %tmp.246 = const :color;
+            symbol [ color %tmp.246 26 102 107 const ];
+            symbol [ Graphics %tmp.247 26 109 117 ];
+            %tmp.247 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.248 26 118 129 ];
+            %tmp.248 = getv %tmp.247 :COLOR_WHITE;
+            %tmp.249 = dup %tmp.244;
+            %tmp.250 = aputv %tmp.249 %tmp.246 %tmp.248;
+            %tmp.252 = const :locX;
+            symbol [ locX %tmp.252 26 132 136 const ];
+            %tmp.253 = 360;
+            %tmp.254 = 15;
+            %tmp.255 = 100.0;
+            %tmp.256 = div %tmp.254 %tmp.255;
+            %tmp.257 = mul %tmp.253 %tmp.256;
+            %tmp.258 = dup %tmp.250;
+            %tmp.259 = aputv %tmp.258 %tmp.252 %tmp.257;
+            %tmp.261 = const :locY;
+            symbol [ locY %tmp.261 26 161 165 const ];
+            %tmp.262 = 360;
+            %tmp.263 = lgetv %dc;
+            symbol [ dc %tmp.263 26 175 177 ];
+            symbol [ getFontHeight %tmp.264 26 178 191 ];
+            %tmp.264 = getv function %tmp.263 :getFontHeight;
+            symbol [ Graphics %tmp.265 26 192 200 ];
+            %tmp.265 = getm $.Toybox.Graphics;
+            symbol [ FONT_SYSTEM_XTINY %tmp.266 26 201 218 ];
+            %tmp.266 = getv %tmp.265 :FONT_SYSTEM_XTINY;
+            %tmp.267 = invoke %tmp.263 %tmp.264(%tmp.266);
+            %tmp.268 = sub %tmp.262 %tmp.267;
+            %tmp.269 = 0.5;
+            %tmp.270 = mul %tmp.268 %tmp.269;
+            %tmp.271 = dup %tmp.259;
+            %tmp.272 = aputv %tmp.271 %tmp.261 %tmp.270;
+            %tmp.274 = const :justification;
+            symbol [ justification %tmp.274 26 230 243 const ];
+            symbol [ Graphics %tmp.275 26 245 253 ];
+            %tmp.275 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.276 26 254 273 ];
+            %tmp.276 = getv %tmp.275 :TEXT_JUSTIFY_CENTER;
+            %tmp.277 = dup %tmp.272;
+            %tmp.278 = aputv %tmp.277 %tmp.274 %tmp.276;
+            %tmp.280 = const :font;
+            symbol [ font %tmp.280 26 276 280 const ];
+            symbol [ Graphics %tmp.281 26 282 290 ];
+            %tmp.281 = getm $.Toybox.Graphics;
+            symbol [ FONT_SYSTEM_XTINY %tmp.282 26 291 308 ];
+            %tmp.282 = getv %tmp.281 :FONT_SYSTEM_XTINY;
+            %tmp.283 = dup %tmp.278;
+            %tmp.284 = aputv %tmp.283 %tmp.280 %tmp.282;
+            %tmp.235 = newc %tmp.238 (%tmp.284);
+            lputv %rez_cmp_local_text_HeartRateLabel.7 %tmp.235;
+            symbol [ rez_cmp_local_text_HeartRateLabel %rez_cmp_local_text_HeartRateLabel.7 26 16 49 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 28 12 ]
+            %tmp.285 = newa 7 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.285 28 263 268 ];
+            symbol [ WatchUi %tmp.285 28 269 276 ];
+            symbol [ Drawable %tmp.285 28 277 285 ];
+            %tmp.286 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.286 28 20 70 ];
+            %tmp.287 = dup %tmp.285;
+            %tmp.288 = aputv %tmp.287 0 %tmp.286;
+            %tmp.289 = lgetv %rez_cmp_local_text_BatteryLabel.2;
+            symbol [ rez_cmp_local_text_BatteryLabel %tmp.289 28 72 103 ];
+            %tmp.290 = dup %tmp.288;
+            %tmp.291 = aputv %tmp.290 1 %tmp.289;
+            %tmp.292 = lgetv %rez_cmp_local_text_HelloYou.3;
+            symbol [ rez_cmp_local_text_HelloYou %tmp.292 28 105 132 ];
+            %tmp.293 = dup %tmp.291;
+            %tmp.294 = aputv %tmp.293 2 %tmp.292;
+            %tmp.295 = lgetv %rez_cmp_local_text_TimeLabel.4;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.295 28 134 162 ];
+            %tmp.296 = dup %tmp.294;
+            %tmp.297 = aputv %tmp.296 3 %tmp.295;
+            %tmp.298 = lgetv %rez_cmp_local_text_DateLabel.5;
+            symbol [ rez_cmp_local_text_DateLabel %tmp.298 28 164 192 ];
+            %tmp.299 = dup %tmp.297;
+            %tmp.300 = aputv %tmp.299 4 %tmp.298;
+            %tmp.301 = lgetv %rez_cmp_local_text_StepsLabel.6;
+            symbol [ rez_cmp_local_text_StepsLabel %tmp.301 28 194 223 ];
+            %tmp.302 = dup %tmp.300;
+            %tmp.303 = aputv %tmp.302 5 %tmp.301;
+            %tmp.304 = lgetv %rez_cmp_local_text_HeartRateLabel.7;
+            symbol [ rez_cmp_local_text_HeartRateLabel %tmp.304 28 225 258 ];
+            %tmp.305 = dup %tmp.303;
+            %tmp.306 = aputv %tmp.305 6 %tmp.304;
+            ret %tmp.306;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_bin_gen_006_B3704_00_source_Rez_mcgen_13_73_29_8_stop:
+        }
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 32; @symbol_moduledef = [Strings,32,11,18]; ]
+    module Strings {
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 32; ]
+        <init> {
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [ColorLightGray,33,27,41]; @symbol_type<0> = [ResourceId,33,45,55]; ]
+        var ColorLightGray as ResourceId;
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [ColorBlue,34,27,36]; @symbol_type<0> = [ResourceId,34,40,50]; ]
+        var ColorBlue as ResourceId;
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [ColorRed,35,27,35]; @symbol_type<0> = [ResourceId,35,39,49]; ]
+        var ColorRed as ResourceId;
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [ForegroundColorTitle,36,27,47]; @symbol_type<0> = [ResourceId,36,51,61]; ]
+        var ForegroundColorTitle as ResourceId;
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; @symbol_vardef = [BackgroundColorTitle,37,27,47]; @symbol_type<0> = [ResourceId,37,51,61]; ]
+        var BackgroundColorTitle as ResourceId;
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 38; @position = 27; initialized = true; @symbol_vardef = [ColorDarkGray,38,27,40]; @symbol_type<0> = [ResourceId,38,44,54]; ]
+        var ColorDarkGray as ResourceId;
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 39; @position = 27; initialized = true; @symbol_vardef = [MilitaryFormatTitle,39,27,46]; @symbol_type<0> = [ResourceId,39,50,60]; ]
+        var MilitaryFormatTitle as ResourceId;
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; @symbol_vardef = [ColorBlack,40,27,37]; @symbol_type<0> = [ResourceId,40,41,51]; ]
+        var ColorBlack as ResourceId;
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; @symbol_vardef = [ColorWhite,41,27,37]; @symbol_type<0> = [ResourceId,41,41,51]; ]
+        var ColorWhite as ResourceId;
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; @symbol_vardef = [AppName,42,27,34]; @symbol_type<0> = [ResourceId,42,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 45; @symbol_moduledef = [Styles,45,11,17]; ]
+    module Styles {
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 45; ]
+        <init> {
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 46; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,46,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 46; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [exclude,47,18,25]; @symbol_type<0> = [Boolean,47,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 50; @symbol_moduledef = [system_size__menu_header,50,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 50; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 51; @position = 18; @symbol_constdef = [width,51,18,23]; @symbol_type<0> = [Number,51,27,33]; ]
+            const width as Number = 360;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 52; @position = 18; @symbol_constdef = [height,52,18,24]; @symbol_type<0> = [Number,52,28,34]; ]
+            const height as Number = 82;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 55; @symbol_moduledef = [system_loc__hint_button_left_bottom,55,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 55; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [exclude,56,18,25]; @symbol_type<0> = [Boolean,56,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 59; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,59,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 59; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 60; @position = 18; @symbol_constdef = [exclude,60,18,25]; @symbol_type<0> = [Boolean,60,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 63; @symbol_moduledef = [prompt_loc__body_no_title,63,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 63; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 64; @position = 18; @symbol_constdef = [x,64,18,19]; @symbol_type<0> = [Number,64,23,29]; ]
+            const x as Number = 36;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 65; @position = 18; @symbol_constdef = [y,65,18,19]; @symbol_type<0> = [Number,65,23,29]; ]
+            const y as Number = 61;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 68; @symbol_moduledef = [system_icon_dark__about,68,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 68; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 69; @position = 18; @symbol_constdef = [filename,69,18,26]; @symbol_type<0> = [String,69,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__about.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [compress,70,18,26]; @symbol_type<0> = [String,70,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [dithering,71,18,27]; @symbol_type<0> = [String,71,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [automaticPalette,72,18,34]; @symbol_type<0> = [String,72,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 73; @position = 18; @symbol_constdef = [packingFormat,73,18,31]; @symbol_type<0> = [String,73,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 76; @symbol_moduledef = [system_icon_light__question,76,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 76; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [filename,77,18,26]; @symbol_type<0> = [String,77,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__question.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 78; @position = 18; @symbol_constdef = [compress,78,18,26]; @symbol_type<0> = [String,78,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [dithering,79,18,27]; @symbol_type<0> = [String,79,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [automaticPalette,80,18,34]; @symbol_type<0> = [String,80,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [packingFormat,81,18,31]; @symbol_type<0> = [String,81,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 84; @symbol_moduledef = [system_loc__hint_button_left_top,84,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 84; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [exclude,85,18,25]; @symbol_type<0> = [Boolean,85,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 88; @symbol_moduledef = [prompt_font__title,88,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 88; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 89 18 ]
+                symbol [ Graphics %tmp.307 89 34 42 ];
+                %tmp.307 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.308 89 43 62 ];
+                %tmp.308 = getv %tmp.307 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.309 89 63 71 ];
+                %tmp.309 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.310 89 72 92 ];
+                %tmp.310 = getv %tmp.309 :TEXT_JUSTIFY_VCENTER;
+                %tmp.311 = bitor %tmp.308 %tmp.310;
+                putv self :justification %tmp.311;
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 90 18 ]
+                symbol [ Graphics %tmp.312 90 25 33 ];
+                %tmp.312 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.313 90 34 44 ];
+                %tmp.313 = getv %tmp.312 :FONT_XTINY;
+                putv self :font %tmp.313;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [justification,89,18,31]; ]
+            const justification;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [font,90,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 93; @symbol_moduledef = [system_icon_dark__discard,93,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 93; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [filename,94,18,26]; @symbol_type<0> = [String,94,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__discard.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [compress,95,18,26]; @symbol_type<0> = [String,95,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 96; @position = 18; @symbol_constdef = [dithering,96,18,27]; @symbol_type<0> = [String,96,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 97; @position = 18; @symbol_constdef = [automaticPalette,97,18,34]; @symbol_type<0> = [String,97,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 98; @position = 18; @symbol_constdef = [packingFormat,98,18,31]; @symbol_type<0> = [String,98,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 101; @symbol_moduledef = [system_size__menu_item,101,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 101; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [width,102,18,23]; @symbol_type<0> = [Number,102,27,33]; ]
+            const width as Number = 360;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [height,103,18,24]; @symbol_type<0> = [Number,103,28,34]; ]
+            const height as Number = 90;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 106; @symbol_moduledef = [system_color_dark__text,106,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 106; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 108 18 ]
+                symbol [ Graphics %tmp.314 108 31 39 ];
+                %tmp.314 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.315 108 40 57 ];
+                %tmp.315 = getv %tmp.314 :COLOR_TRANSPARENT;
+                putv self :background %tmp.315;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [color,107,18,23]; @symbol_type<0> = [Number,107,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 108; @position = 18; @symbol_constdef = [background,108,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 111; @symbol_moduledef = [system_icon_destructive__discard,111,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 111; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 112; @position = 18; @symbol_constdef = [filename,112,18,26]; @symbol_type<0> = [String,112,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__discard.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [dithering,113,18,27]; @symbol_type<0> = [String,113,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [packingFormat,114,18,31]; @symbol_type<0> = [String,114,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 117; @symbol_moduledef = [system_icon_dark__hint_action_menu,117,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [filename,118,18,26]; @symbol_type<0> = [String,118,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__hint_action_menu.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [dithering,119,18,27]; @symbol_type<0> = [String,119,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [packingFormat,120,18,31]; @symbol_type<0> = [String,120,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 123; @symbol_moduledef = [prompt_size__title,123,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 123; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [width,124,18,23]; @symbol_type<0> = [Number,124,27,33]; ]
+            const width as Number = 152;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 125; @position = 18; @symbol_constdef = [height,125,18,24]; @symbol_type<0> = [Number,125,28,34]; ]
+            const height as Number = 65;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 128; @symbol_moduledef = [confirmation_font__body,128,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 128; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 129 18 ]
+                symbol [ Graphics %tmp.316 129 34 42 ];
+                %tmp.316 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.317 129 43 62 ];
+                %tmp.317 = getv %tmp.316 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.318 129 63 71 ];
+                %tmp.318 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.319 129 72 92 ];
+                %tmp.319 = getv %tmp.318 :TEXT_JUSTIFY_VCENTER;
+                %tmp.320 = bitor %tmp.317 %tmp.319;
+                putv self :justification %tmp.320;
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 130 18 ]
+                symbol [ Graphics %tmp.321 130 25 33 ];
+                %tmp.321 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.322 130 34 43 ];
+                %tmp.322 = getv %tmp.321 :FONT_TINY;
+                putv self :font %tmp.322;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [justification,129,18,31]; ]
+            const justification;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 130; @position = 18; @symbol_constdef = [font,130,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 133; @symbol_moduledef = [system_color_dark__background,133,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 133; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [color,134,18,23]; @symbol_type<0> = [Number,134,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 135; @position = 18; @symbol_constdef = [background,135,18,28]; @symbol_type<0> = [Number,135,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 138; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,138,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 138; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 139; @position = 18; @symbol_constdef = [exclude,139,18,25]; @symbol_type<0> = [Boolean,139,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 142; @symbol_moduledef = [system_size__launch_icon,142,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 142; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [scaleX,143,18,24]; @symbol_type<0> = [Number,143,28,34]; ]
+            const scaleX as Number = 61;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [scaleY,144,18,24]; @symbol_type<0> = [Number,144,28,34]; ]
+            const scaleY as Number = 61;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 145; @position = 18; @symbol_constdef = [scaleRelativeTo,145,18,33]; @symbol_type<0> = [String,145,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 148; @symbol_moduledef = [confirmation_input__confirm,148,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 148; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 149; @position = 18; @symbol_constdef = [y1,149,18,20]; @symbol_type<0> = [Number,149,24,30]; ]
+            const y1 as Number = 265;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 150; @position = 18; @symbol_constdef = [x1,150,18,20]; @symbol_type<0> = [Number,150,24,30]; ]
+            const x1 as Number = 77;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [y2,151,18,20]; @symbol_type<0> = [Number,151,24,30]; ]
+            const y2 as Number = 360;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [x2,152,18,20]; @symbol_type<0> = [Number,152,24,30]; ]
+            const x2 as Number = 285;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 155; @symbol_moduledef = [prompt_font__body_with_title,155,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 155; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 156 18 ]
+                symbol [ Graphics %tmp.323 156 34 42 ];
+                %tmp.323 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.324 156 43 62 ];
+                %tmp.324 = getv %tmp.323 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.324;
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 157 18 ]
+                symbol [ Graphics %tmp.325 157 25 33 ];
+                %tmp.325 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.326 157 34 43 ];
+                %tmp.326 = getv %tmp.325 :FONT_TINY;
+                putv self :font %tmp.326;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [justification,156,18,31]; ]
+            const justification;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [font,157,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 160; @symbol_moduledef = [confirmation_loc__body,160,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 160; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 161; @position = 18; @symbol_constdef = [x,161,18,19]; @symbol_type<0> = [Number,161,23,29]; ]
+            const x as Number = 70;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [y,162,18,19]; @symbol_type<0> = [Number,162,23,29]; ]
+            const y as Number = 68;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 165; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,165,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 165; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 166; @position = 18; @symbol_constdef = [exclude,166,18,25]; @symbol_type<0> = [Boolean,166,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 169; @symbol_moduledef = [prompt_color_dark__background,169,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 169; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 170; @position = 18; @symbol_constdef = [color,170,18,23]; @symbol_type<0> = [Number,170,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 171; @position = 18; @symbol_constdef = [background,171,18,28]; @symbol_type<0> = [Number,171,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 174; @symbol_moduledef = [system_icon_destructive__hint_action_menu,174,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 174; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 175; @position = 18; @symbol_constdef = [filename,175,18,26]; @symbol_type<0> = [String,175,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__hint_action_menu.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 176; @position = 18; @symbol_constdef = [dithering,176,18,27]; @symbol_type<0> = [String,176,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [packingFormat,177,18,31]; @symbol_type<0> = [String,177,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 180; @symbol_moduledef = [system_loc__hint_action_menu,180,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 180; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 181; @position = 18; @symbol_constdef = [x,181,18,19]; @symbol_type<0> = [Number,181,23,29]; ]
+            const x as Number = 180;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [horizontalJustification,182,18,41]; @symbol_type<0> = [String,182,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [y,183,18,19]; @symbol_type<0> = [Number,183,23,29]; ]
+            const y as Number = 290;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 186; @symbol_moduledef = [confirmation_icon__hint_confirm,186,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 186; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [filename,187,18,26]; @symbol_type<0> = [String,187,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [dithering,188,18,27]; @symbol_type<0> = [String,188,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 189; @position = 18; @symbol_constdef = [packingFormat,189,18,31]; @symbol_type<0> = [String,189,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 192; @symbol_moduledef = [system_loc__hint_button_left_middle,192,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 192; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [exclude,193,18,25]; @symbol_type<0> = [Boolean,193,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 196; @symbol_moduledef = [prompt_size__body_no_title,196,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [width,197,18,23]; @symbol_type<0> = [Number,197,27,33]; ]
+            const width as Number = 288;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [height,198,18,24]; @symbol_type<0> = [Number,198,28,34]; ]
+            const height as Number = 231;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 201; @symbol_moduledef = [system_icon_light__hint_button_left_top,201,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 201; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [exclude,202,18,25]; @symbol_type<0> = [Boolean,202,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 205; @symbol_moduledef = [prompt_color_light__background,205,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [color,206,18,23]; @symbol_type<0> = [Number,206,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [background,207,18,28]; @symbol_type<0> = [Number,207,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 210; @symbol_moduledef = [confirmation_input__delete,210,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 210; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 211 18 ]
+                symbol [ WatchUi %tmp.327 211 27 34 ];
+                %tmp.327 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.328 211 35 44 ];
+                %tmp.328 = getv %tmp.327 :KEY_ENTER;
+                putv self :button %tmp.328;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [button,211,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 214; @symbol_moduledef = [system_icon_dark__hint_button_left_top,214,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 214; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 215; @position = 18; @symbol_constdef = [exclude,215,18,25]; @symbol_type<0> = [Boolean,215,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 218; @symbol_moduledef = [system_input__action_menu,218,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 218; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 219; @position = 18; @symbol_constdef = [y1,219,18,20]; @symbol_type<0> = [Number,219,24,30]; ]
+            const y1 as Number = 300;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [x1,220,18,20]; @symbol_type<0> = [Number,220,24,30]; ]
+            const x1 as Number = 0;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [y2,221,18,20]; @symbol_type<0> = [Number,221,24,30]; ]
+            const y2 as Number = 360;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [x2,222,18,20]; @symbol_type<0> = [Number,222,24,30]; ]
+            const x2 as Number = 360;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 225; @symbol_moduledef = [system_icon_light__save,225,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 225; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [filename,226,18,26]; @symbol_type<0> = [String,226,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__save.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [compress,227,18,26]; @symbol_type<0> = [String,227,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [dithering,228,18,27]; @symbol_type<0> = [String,228,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 229; @position = 18; @symbol_constdef = [automaticPalette,229,18,34]; @symbol_type<0> = [String,229,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 230; @position = 18; @symbol_constdef = [packingFormat,230,18,31]; @symbol_type<0> = [String,230,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 233; @symbol_moduledef = [prompt_color_light__body,233,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 233; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 235 18 ]
+                symbol [ Graphics %tmp.329 235 31 39 ];
+                %tmp.329 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.330 235 40 57 ];
+                %tmp.330 = getv %tmp.329 :COLOR_TRANSPARENT;
+                putv self :background %tmp.330;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 234; @position = 18; @symbol_constdef = [color,234,18,23]; @symbol_type<0> = [Number,234,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [background,235,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 238; @symbol_moduledef = [system_loc__subwindow,238,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 238; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [exclude,239,18,25]; @symbol_type<0> = [Boolean,239,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 242; @symbol_moduledef = [system_icon_light__warning,242,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 242; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 243; @position = 18; @symbol_constdef = [filename,243,18,26]; @symbol_type<0> = [String,243,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__warning.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [compress,244,18,26]; @symbol_type<0> = [String,244,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [dithering,245,18,27]; @symbol_type<0> = [String,245,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [automaticPalette,246,18,34]; @symbol_type<0> = [String,246,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 247; @position = 18; @symbol_constdef = [packingFormat,247,18,31]; @symbol_type<0> = [String,247,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 250; @symbol_moduledef = [confirmation_color_light__body,250,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 250; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 252 18 ]
+                symbol [ Graphics %tmp.331 252 31 39 ];
+                %tmp.331 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.332 252 40 57 ];
+                %tmp.332 = getv %tmp.331 :COLOR_TRANSPARENT;
+                putv self :background %tmp.332;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [color,251,18,23]; @symbol_type<0> = [Number,251,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 252; @position = 18; @symbol_constdef = [background,252,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 255; @symbol_moduledef = [confirmation_icon_light__hint_keep,255,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 255; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [filename,256,18,26]; @symbol_type<0> = [String,256,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 257; @position = 18; @symbol_constdef = [dithering,257,18,27]; @symbol_type<0> = [String,257,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 258; @position = 18; @symbol_constdef = [packingFormat,258,18,31]; @symbol_type<0> = [String,258,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 261; @symbol_moduledef = [activity_color_light__background,261,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 261; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 262; @position = 18; @symbol_constdef = [color,262,18,23]; @symbol_type<0> = [Number,262,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 263; @position = 18; @symbol_constdef = [background,263,18,28]; @symbol_type<0> = [Number,263,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 266; @symbol_moduledef = [system_icon_positive__hint_button_right_top,266,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 266; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 267; @position = 18; @symbol_constdef = [filename,267,18,26]; @symbol_type<0> = [String,267,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 268; @position = 18; @symbol_constdef = [dithering,268,18,27]; @symbol_type<0> = [String,268,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [packingFormat,269,18,31]; @symbol_type<0> = [String,269,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 272; @symbol_moduledef = [system_size__screen,272,15,34]; ]
+        module system_size__screen {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 272; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 273; @position = 18; @symbol_constdef = [width,273,18,23]; @symbol_type<0> = [Number,273,27,33]; ]
+            const width as Number = 360;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [height,274,18,24]; @symbol_type<0> = [Number,274,28,34]; ]
+            const height as Number = 360;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 277; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,277,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [filename,278,18,26]; @symbol_type<0> = [String,278,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [dithering,279,18,27]; @symbol_type<0> = [String,279,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [packingFormat,280,18,31]; @symbol_type<0> = [String,280,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 283; @symbol_moduledef = [system_color_light__background,283,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [color,284,18,23]; @symbol_type<0> = [Number,284,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [background,285,18,28]; @symbol_type<0> = [Number,285,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 288; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,288,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 288; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [filename,289,18,26]; @symbol_type<0> = [String,289,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [dithering,290,18,27]; @symbol_type<0> = [String,290,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [packingFormat,291,18,31]; @symbol_type<0> = [String,291,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 294; @symbol_moduledef = [confirmation_loc__hint_confirm,294,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 294; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [x,295,18,19]; @symbol_type<0> = [Number,295,23,29]; ]
+            const x as Number = 180;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 296; @position = 18; @symbol_constdef = [horizontalJustification,296,18,41]; @symbol_type<0> = [String,296,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 297; @position = 18; @symbol_constdef = [y,297,18,19]; @symbol_type<0> = [Number,297,23,29]; ]
+            const y as Number = 258;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 300; @symbol_moduledef = [activity_color_dark__text,300,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 300; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 302 18 ]
+                symbol [ Graphics %tmp.333 302 31 39 ];
+                %tmp.333 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.334 302 40 57 ];
+                %tmp.334 = getv %tmp.333 :COLOR_TRANSPARENT;
+                putv self :background %tmp.334;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 301; @position = 18; @symbol_constdef = [color,301,18,23]; @symbol_type<0> = [Number,301,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 302; @position = 18; @symbol_constdef = [background,302,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 305; @symbol_moduledef = [confirmation_input__keep,305,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 305; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 306 18 ]
+                symbol [ WatchUi %tmp.335 306 27 34 ];
+                %tmp.335 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ESC %tmp.336 306 35 42 ];
+                %tmp.336 = getv %tmp.335 :KEY_ESC;
+                putv self :button %tmp.336;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 306; @position = 18; @symbol_constdef = [button,306,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 309; @symbol_moduledef = [prompt_loc__body_with_title,309,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 309; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [x,310,18,19]; @symbol_type<0> = [Number,310,23,29]; ]
+            const x as Number = 36;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [y,311,18,19]; @symbol_type<0> = [Number,311,23,29]; ]
+            const y as Number = 90;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 314; @symbol_moduledef = [system_icon_dark__search,314,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 314; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 315; @position = 18; @symbol_constdef = [filename,315,18,26]; @symbol_type<0> = [String,315,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__search.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [compress,316,18,26]; @symbol_type<0> = [String,316,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 317; @position = 18; @symbol_constdef = [dithering,317,18,27]; @symbol_type<0> = [String,317,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [automaticPalette,318,18,34]; @symbol_type<0> = [String,318,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [packingFormat,319,18,31]; @symbol_type<0> = [String,319,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 322; @symbol_moduledef = [activity_color_light__text,322,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 322; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 324 18 ]
+                symbol [ Graphics %tmp.337 324 31 39 ];
+                %tmp.337 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.338 324 40 57 ];
+                %tmp.338 = getv %tmp.337 :COLOR_TRANSPARENT;
+                putv self :background %tmp.338;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [color,323,18,23]; @symbol_type<0> = [Number,323,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [background,324,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 327; @symbol_moduledef = [confirmation_icon__hint_keep,327,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [filename,328,18,26]; @symbol_type<0> = [String,328,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [dithering,329,18,27]; @symbol_type<0> = [String,329,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 330; @position = 18; @symbol_constdef = [packingFormat,330,18,31]; @symbol_type<0> = [String,330,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 333; @symbol_moduledef = [system_icon_dark__save,333,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 333; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [filename,334,18,26]; @symbol_type<0> = [String,334,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__save.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 335; @position = 18; @symbol_constdef = [compress,335,18,26]; @symbol_type<0> = [String,335,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 336; @position = 18; @symbol_constdef = [dithering,336,18,27]; @symbol_type<0> = [String,336,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [automaticPalette,337,18,34]; @symbol_type<0> = [String,337,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [packingFormat,338,18,31]; @symbol_type<0> = [String,338,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 341; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,341,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 341; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [exclude,342,18,25]; @symbol_type<0> = [Boolean,342,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 345; @symbol_moduledef = [system_icon_light__search,345,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 345; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 346; @position = 18; @symbol_constdef = [filename,346,18,26]; @symbol_type<0> = [String,346,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__search.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [compress,347,18,26]; @symbol_type<0> = [String,347,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [dithering,348,18,27]; @symbol_type<0> = [String,348,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [automaticPalette,349,18,34]; @symbol_type<0> = [String,349,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [packingFormat,350,18,31]; @symbol_type<0> = [String,350,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 353; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,353,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 353; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [exclude,354,18,25]; @symbol_type<0> = [Boolean,354,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 357; @symbol_moduledef = [system_icon_positive__hint_button_left_top,357,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 357; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [exclude,358,18,25]; @symbol_type<0> = [Boolean,358,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 361; @symbol_moduledef = [system_loc__hint_button_right_bottom,361,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 361; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [x,362,18,19]; @symbol_type<0> = [Number,362,23,29]; ]
+            const x as Number = 287;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [y,363,18,19]; @symbol_type<0> = [Number,363,23,29]; ]
+            const y as Number = 223;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 366; @symbol_moduledef = [confirmation_icon_dark__hint_reject,366,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [filename,367,18,26]; @symbol_type<0> = [String,367,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [dithering,368,18,27]; @symbol_type<0> = [String,368,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 369; @position = 18; @symbol_constdef = [packingFormat,369,18,31]; @symbol_type<0> = [String,369,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 372; @symbol_moduledef = [confirmation_color_dark__body,372,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 372; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 374 18 ]
+                symbol [ Graphics %tmp.339 374 31 39 ];
+                %tmp.339 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.340 374 40 57 ];
+                %tmp.340 = getv %tmp.339 :COLOR_TRANSPARENT;
+                putv self :background %tmp.340;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [color,373,18,23]; @symbol_type<0> = [Number,373,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 374; @position = 18; @symbol_constdef = [background,374,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 377; @symbol_moduledef = [confirmation_icon_light__hint_confirm,377,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 377; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [filename,378,18,26]; @symbol_type<0> = [String,378,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 379; @position = 18; @symbol_constdef = [dithering,379,18,27]; @symbol_type<0> = [String,379,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 380; @position = 18; @symbol_constdef = [packingFormat,380,18,31]; @symbol_type<0> = [String,380,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 383; @symbol_moduledef = [prompt_color_dark__title,383,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 383; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 385 18 ]
+                symbol [ Graphics %tmp.341 385 31 39 ];
+                %tmp.341 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.342 385 40 57 ];
+                %tmp.342 = getv %tmp.341 :COLOR_TRANSPARENT;
+                putv self :background %tmp.342;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 384; @position = 18; @symbol_constdef = [color,384,18,23]; @symbol_type<0> = [Number,384,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 385; @position = 18; @symbol_constdef = [background,385,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 388; @symbol_moduledef = [system_icon_destructive__cancel,388,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 388; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 389; @position = 18; @symbol_constdef = [filename,389,18,26]; @symbol_type<0> = [String,389,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 390; @position = 18; @symbol_constdef = [dithering,390,18,27]; @symbol_type<0> = [String,390,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [packingFormat,391,18,31]; @symbol_type<0> = [String,391,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 394; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,394,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 394; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 395; @position = 18; @symbol_constdef = [filename,395,18,26]; @symbol_type<0> = [String,395,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [dithering,396,18,27]; @symbol_type<0> = [String,396,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [packingFormat,397,18,31]; @symbol_type<0> = [String,397,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 400; @symbol_moduledef = [prompt_loc__title,400,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [x,401,18,19]; @symbol_type<0> = [Number,401,23,29]; ]
+            const x as Number = 104;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [y,402,18,19]; @symbol_type<0> = [Number,402,23,29]; ]
+            const y as Number = 17;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 405; @symbol_moduledef = [confirmation_font_enhanced_readability__body,405,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 405; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [exclude,406,18,25]; @symbol_type<0> = [Boolean,406,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 409; @symbol_moduledef = [prompt_color_light__title,409,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 409; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 411 18 ]
+                symbol [ Graphics %tmp.343 411 31 39 ];
+                %tmp.343 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.344 411 40 57 ];
+                %tmp.344 = getv %tmp.343 :COLOR_TRANSPARENT;
+                putv self :background %tmp.344;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 410; @position = 18; @symbol_constdef = [color,410,18,23]; @symbol_type<0> = [Number,410,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [background,411,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 414; @symbol_moduledef = [system_icon_dark__hint_button_right_top,414,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 414; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 415; @position = 18; @symbol_constdef = [filename,415,18,26]; @symbol_type<0> = [String,415,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [dithering,416,18,27]; @symbol_type<0> = [String,416,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [packingFormat,417,18,31]; @symbol_type<0> = [String,417,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 420; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,420,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [exclude,421,18,25]; @symbol_type<0> = [Boolean,421,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 424; @symbol_moduledef = [confirmation_icon_dark__hint_keep,424,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 424; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 425; @position = 18; @symbol_constdef = [filename,425,18,26]; @symbol_type<0> = [String,425,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [dithering,426,18,27]; @symbol_type<0> = [String,426,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [packingFormat,427,18,31]; @symbol_type<0> = [String,427,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 430; @symbol_moduledef = [system_icon_light__cancel,430,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [filename,431,18,26]; @symbol_type<0> = [String,431,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__cancel.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [compress,432,18,26]; @symbol_type<0> = [String,432,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 433; @position = 18; @symbol_constdef = [dithering,433,18,27]; @symbol_type<0> = [String,433,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 434; @position = 18; @symbol_constdef = [automaticPalette,434,18,34]; @symbol_type<0> = [String,434,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [packingFormat,435,18,31]; @symbol_type<0> = [String,435,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 438; @symbol_moduledef = [confirmation_icon_light__hint_reject,438,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 438; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 439; @position = 18; @symbol_constdef = [filename,439,18,26]; @symbol_type<0> = [String,439,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [dithering,440,18,27]; @symbol_type<0> = [String,440,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [packingFormat,441,18,31]; @symbol_type<0> = [String,441,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 444; @symbol_moduledef = [system_icon_light__about,444,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [filename,445,18,26]; @symbol_type<0> = [String,445,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__about.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [compress,446,18,26]; @symbol_type<0> = [String,446,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [dithering,447,18,27]; @symbol_type<0> = [String,447,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [automaticPalette,448,18,34]; @symbol_type<0> = [String,448,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [packingFormat,449,18,31]; @symbol_type<0> = [String,449,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 452; @symbol_moduledef = [system_size__toast_icon,452,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 452; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 453; @position = 18; @symbol_constdef = [scaleX,453,18,24]; @symbol_type<0> = [Number,453,28,34]; ]
+            const scaleX as Number = 49;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [scaleY,454,18,24]; @symbol_type<0> = [Number,454,28,34]; ]
+            const scaleY as Number = 49;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [scaleRelativeTo,455,18,33]; @symbol_type<0> = [String,455,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 458; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,458,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 458; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 459; @position = 18; @symbol_constdef = [exclude,459,18,25]; @symbol_type<0> = [Boolean,459,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 462; @symbol_moduledef = [confirmation_icon__hint_reject,462,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 462; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [filename,463,18,26]; @symbol_type<0> = [String,463,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [dithering,464,18,27]; @symbol_type<0> = [String,464,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [packingFormat,465,18,31]; @symbol_type<0> = [String,465,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 468; @symbol_moduledef = [system_icon_light__hint_action_menu,468,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 468; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 469; @position = 18; @symbol_constdef = [filename,469,18,26]; @symbol_type<0> = [String,469,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__hint_action_menu.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [dithering,470,18,27]; @symbol_type<0> = [String,470,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [packingFormat,471,18,31]; @symbol_type<0> = [String,471,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 474; @symbol_moduledef = [system_icon_light__hint_button_right_middle,474,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [exclude,475,18,25]; @symbol_type<0> = [Boolean,475,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 478; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,478,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 478; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [exclude,479,18,25]; @symbol_type<0> = [Boolean,479,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 482; @symbol_moduledef = [confirmation_loc__hint_reject,482,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 482; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [x,483,18,19]; @symbol_type<0> = [Number,483,23,29]; ]
+            const x as Number = 180;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [horizontalJustification,484,18,41]; @symbol_type<0> = [String,484,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [y,485,18,19]; @symbol_type<0> = [Number,485,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 488; @symbol_moduledef = [confirmation_icon_dark__hint_delete,488,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 488; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [filename,489,18,26]; @symbol_type<0> = [String,489,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [dithering,490,18,27]; @symbol_type<0> = [String,490,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [packingFormat,491,18,31]; @symbol_type<0> = [String,491,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 494; @symbol_moduledef = [activity_color_dark__background,494,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [color,495,18,23]; @symbol_type<0> = [Number,495,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 496; @position = 18; @symbol_constdef = [background,496,18,28]; @symbol_type<0> = [Number,496,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 499; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,499,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 499; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [exclude,500,18,25]; @symbol_type<0> = [Boolean,500,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 503; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,503,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 503; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [exclude,504,18,25]; @symbol_type<0> = [Boolean,504,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 507; @symbol_moduledef = [system_size__menu_icon,507,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 507; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [scaleX,508,18,24]; @symbol_type<0> = [Number,508,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [scaleY,509,18,24]; @symbol_type<0> = [Number,509,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [scaleRelativeTo,510,18,33]; @symbol_type<0> = [String,510,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 513; @symbol_moduledef = [system_icon_destructive__warning,513,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 513; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 514; @position = 18; @symbol_constdef = [filename,514,18,26]; @symbol_type<0> = [String,514,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__warning.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [dithering,515,18,27]; @symbol_type<0> = [String,515,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [packingFormat,516,18,31]; @symbol_type<0> = [String,516,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 519; @symbol_moduledef = [system_loc__hint_button_right_middle,519,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 519; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [exclude,520,18,25]; @symbol_type<0> = [Boolean,520,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 523; @symbol_moduledef = [system_icon_dark__cancel,523,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 523; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [filename,524,18,26]; @symbol_type<0> = [String,524,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__cancel.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [compress,525,18,26]; @symbol_type<0> = [String,525,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [dithering,526,18,27]; @symbol_type<0> = [String,526,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [automaticPalette,527,18,34]; @symbol_type<0> = [String,527,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 528; @position = 18; @symbol_constdef = [packingFormat,528,18,31]; @symbol_type<0> = [String,528,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 531; @symbol_moduledef = [prompt_size__body_with_title,531,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 531; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [width,532,18,23]; @symbol_type<0> = [Number,532,27,33]; ]
+            const width as Number = 288;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [height,533,18,24]; @symbol_type<0> = [Number,533,28,34]; ]
+            const height as Number = 205;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 536; @symbol_moduledef = [system_loc__hint_button_right_top,536,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [x,537,18,19]; @symbol_type<0> = [Number,537,23,29]; ]
+            const x as Number = 300;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [y,538,18,19]; @symbol_type<0> = [Number,538,23,29]; ]
+            const y as Number = 59;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 541; @symbol_moduledef = [system_color_light__text,541,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 541; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 543 18 ]
+                symbol [ Graphics %tmp.345 543 31 39 ];
+                %tmp.345 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.346 543 40 57 ];
+                %tmp.346 = getv %tmp.345 :COLOR_TRANSPARENT;
+                putv self :background %tmp.346;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [color,542,18,23]; @symbol_type<0> = [Number,542,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [background,543,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 546; @symbol_moduledef = [system_icon_light__check,546,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [filename,547,18,26]; @symbol_type<0> = [String,547,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__check.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [compress,548,18,26]; @symbol_type<0> = [String,548,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 549; @position = 18; @symbol_constdef = [dithering,549,18,27]; @symbol_type<0> = [String,549,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 550; @position = 18; @symbol_constdef = [automaticPalette,550,18,34]; @symbol_type<0> = [String,550,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [packingFormat,551,18,31]; @symbol_type<0> = [String,551,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 554; @symbol_moduledef = [confirmation_input__reject,554,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 554; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [y1,555,18,20]; @symbol_type<0> = [Number,555,24,30]; ]
+            const y1 as Number = 0;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [x1,556,18,20]; @symbol_type<0> = [Number,556,24,30]; ]
+            const x1 as Number = 90;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [y2,557,18,20]; @symbol_type<0> = [Number,557,24,30]; ]
+            const y2 as Number = 65;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [x2,558,18,20]; @symbol_type<0> = [Number,558,24,30]; ]
+            const x2 as Number = 270;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 561; @symbol_moduledef = [system_icon_light__revert,561,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 561; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [filename,562,18,26]; @symbol_type<0> = [String,562,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__revert.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 563; @position = 18; @symbol_constdef = [compress,563,18,26]; @symbol_type<0> = [String,563,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 564; @position = 18; @symbol_constdef = [dithering,564,18,27]; @symbol_type<0> = [String,564,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [automaticPalette,565,18,34]; @symbol_type<0> = [String,565,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [packingFormat,566,18,31]; @symbol_type<0> = [String,566,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 569; @symbol_moduledef = [system_size__subwindow,569,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [exclude,570,18,25]; @symbol_type<0> = [Boolean,570,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 573; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,573,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 573; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [exclude,574,18,25]; @symbol_type<0> = [Boolean,574,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 577; @symbol_moduledef = [system_icon_dark__check,577,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 577; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [filename,578,18,26]; @symbol_type<0> = [String,578,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__check.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [compress,579,18,26]; @symbol_type<0> = [String,579,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [dithering,580,18,27]; @symbol_type<0> = [String,580,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [automaticPalette,581,18,34]; @symbol_type<0> = [String,581,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [packingFormat,582,18,31]; @symbol_type<0> = [String,582,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 585; @symbol_moduledef = [confirmation_loc__hint_keep,585,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 585; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 586; @position = 18; @symbol_constdef = [x,586,18,19]; @symbol_type<0> = [Number,586,23,29]; ]
+            const x as Number = 271;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [y,587,18,19]; @symbol_type<0> = [Number,587,23,29]; ]
+            const y as Number = 206;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 590; @symbol_moduledef = [confirmation_loc__hint_delete,590,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 590; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [x,591,18,19]; @symbol_type<0> = [Number,591,23,29]; ]
+            const x as Number = 284;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [y,592,18,19]; @symbol_type<0> = [Number,592,23,29]; ]
+            const y as Number = 18;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 595; @symbol_moduledef = [system_icon_positive__hint_action_menu,595,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 595; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [filename,596,18,26]; @symbol_type<0> = [String,596,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_positive__hint_action_menu.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [dithering,597,18,27]; @symbol_type<0> = [String,597,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [packingFormat,598,18,31]; @symbol_type<0> = [String,598,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 601; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,601,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [exclude,602,18,25]; @symbol_type<0> = [Boolean,602,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 605; @symbol_moduledef = [system_icon_light__hint_button_left_middle,605,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 605; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [exclude,606,18,25]; @symbol_type<0> = [Boolean,606,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 609; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,609,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 609; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [filename,610,18,26]; @symbol_type<0> = [String,610,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [dithering,611,18,27]; @symbol_type<0> = [String,611,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [packingFormat,612,18,31]; @symbol_type<0> = [String,612,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 615; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,615,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 615; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [filename,616,18,26]; @symbol_type<0> = [String,616,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [dithering,617,18,27]; @symbol_type<0> = [String,617,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 618; @position = 18; @symbol_constdef = [packingFormat,618,18,31]; @symbol_type<0> = [String,618,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 621; @symbol_moduledef = [system_icon_dark__revert,621,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 621; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [filename,622,18,26]; @symbol_type<0> = [String,622,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__revert.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [compress,623,18,26]; @symbol_type<0> = [String,623,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [dithering,624,18,27]; @symbol_type<0> = [String,624,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [automaticPalette,625,18,34]; @symbol_type<0> = [String,625,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [packingFormat,626,18,31]; @symbol_type<0> = [String,626,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 629; @symbol_moduledef = [confirmation_icon_light__hint_delete,629,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 629; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [filename,630,18,26]; @symbol_type<0> = [String,630,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [dithering,631,18,27]; @symbol_type<0> = [String,631,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [packingFormat,632,18,31]; @symbol_type<0> = [String,632,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 635; @symbol_moduledef = [system_icon_dark__question,635,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 635; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [filename,636,18,26]; @symbol_type<0> = [String,636,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__question.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [compress,637,18,26]; @symbol_type<0> = [String,637,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [dithering,638,18,27]; @symbol_type<0> = [String,638,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [automaticPalette,639,18,34]; @symbol_type<0> = [String,639,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [packingFormat,640,18,31]; @symbol_type<0> = [String,640,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 643; @symbol_moduledef = [system_icon_light__discard,643,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 643; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [filename,644,18,26]; @symbol_type<0> = [String,644,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__discard.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [compress,645,18,26]; @symbol_type<0> = [String,645,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [dithering,646,18,27]; @symbol_type<0> = [String,646,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [automaticPalette,647,18,34]; @symbol_type<0> = [String,647,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [packingFormat,648,18,31]; @symbol_type<0> = [String,648,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 651; @symbol_moduledef = [device_info,651,15,26]; ]
+        module device_info {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 651; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 653 18 ]
+                symbol [ Toybox %tmp.348 653 32 38 ];
+                %tmp.348 = getv ? :Toybox;
+                symbol [ System %tmp.349 653 39 45 ];
+                %tmp.349 = getv %tmp.348 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.350 653 46 64 ];
+                %tmp.350 = getv %tmp.349 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.350;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [screenWidth,652,18,29]; @symbol_type<0> = [Number,652,33,39]; ]
+            const screenWidth as Number = 360;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [screenShape,653,18,29]; ]
+            const screenShape;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [hasNightMode,654,18,30]; @symbol_type<0> = [Boolean,654,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [hasGpu,655,18,24]; @symbol_type<0> = [Boolean,655,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [screenHeight,656,18,30]; @symbol_type<0> = [Number,656,34,40]; ]
+            const screenHeight as Number = 360;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [hasTouchScreen,657,18,32]; @symbol_type<0> = [Boolean,657,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,658,18,44]; @symbol_type<0> = [Boolean,658,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 661; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,661,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 661; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [filename,662,18,26]; @symbol_type<0> = [String,662,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 663; @position = 18; @symbol_constdef = [dithering,663,18,27]; @symbol_type<0> = [String,663,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [packingFormat,664,18,31]; @symbol_type<0> = [String,664,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 667; @symbol_moduledef = [prompt_font__body_no_title,667,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 667; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 668 18 ]
+                symbol [ Graphics %tmp.351 668 34 42 ];
+                %tmp.351 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.352 668 43 62 ];
+                %tmp.352 = getv %tmp.351 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.353 668 63 71 ];
+                %tmp.353 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.354 668 72 92 ];
+                %tmp.354 = getv %tmp.353 :TEXT_JUSTIFY_VCENTER;
+                %tmp.355 = bitor %tmp.352 %tmp.354;
+                putv self :justification %tmp.355;
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 669 18 ]
+                symbol [ Graphics %tmp.356 669 25 33 ];
+                %tmp.356 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.357 669 34 43 ];
+                %tmp.357 = getv %tmp.356 :FONT_TINY;
+                putv self :font %tmp.357;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [justification,668,18,31]; ]
+            const justification;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [font,669,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 672; @symbol_moduledef = [prompt_size__title_icon,672,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 672; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 673; @position = 18; @symbol_constdef = [scaleX,673,18,24]; @symbol_type<0> = [Float,673,28,33]; ]
+            const scaleX as Float = 0.12;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [scaleRelativeTo,674,18,33]; @symbol_type<0> = [String,674,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 677; @symbol_moduledef = [system_icon_dark__warning,677,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 677; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 678; @position = 18; @symbol_constdef = [filename,678,18,26]; @symbol_type<0> = [String,678,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__warning.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [compress,679,18,26]; @symbol_type<0> = [String,679,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [dithering,680,18,27]; @symbol_type<0> = [String,680,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 681; @position = 18; @symbol_constdef = [automaticPalette,681,18,34]; @symbol_type<0> = [String,681,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 682; @position = 18; @symbol_constdef = [packingFormat,682,18,31]; @symbol_type<0> = [String,682,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 685; @symbol_moduledef = [prompt_loc__title_icon,685,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 685; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 686; @position = 18; @symbol_constdef = [x,686,18,19]; @symbol_type<0> = [Number,686,23,29]; ]
+            const x as Number = 180;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 687; @position = 18; @symbol_constdef = [y,687,18,19]; @symbol_type<0> = [Number,687,23,29]; ]
+            const y as Number = 43;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 688; @position = 18; @symbol_constdef = [horizontalJustification,688,18,41]; @symbol_type<0> = [String,688,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [verticalJustification,689,18,39]; @symbol_type<0> = [String,689,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 692; @symbol_moduledef = [prompt_font_enhanced_readability__title,692,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 692; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 693; @position = 18; @symbol_constdef = [exclude,693,18,25]; @symbol_type<0> = [Boolean,693,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 696; @symbol_moduledef = [prompt_color_dark__body,696,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 696; ]
+            <init> {
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" 698 18 ]
+                symbol [ Graphics %tmp.358 698 31 39 ];
+                %tmp.358 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.359 698 40 57 ];
+                %tmp.359 = getv %tmp.358 :COLOR_TRANSPARENT;
+                putv self :background %tmp.359;
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 697; @position = 18; @symbol_constdef = [color,697,18,23]; @symbol_type<0> = [Number,697,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 698; @position = 18; @symbol_constdef = [background,698,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 701; @symbol_moduledef = [confirmation_icon__hint_delete,701,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 701; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 702; @position = 18; @symbol_constdef = [filename,702,18,26]; @symbol_type<0> = [String,702,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 703; @position = 18; @symbol_constdef = [dithering,703,18,27]; @symbol_type<0> = [String,703,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 704; @position = 18; @symbol_constdef = [packingFormat,704,18,31]; @symbol_type<0> = [String,704,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 707; @symbol_moduledef = [system_icon_light__hint_button_right_top,707,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 707; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 708; @position = 18; @symbol_constdef = [filename,708,18,26]; @symbol_type<0> = [String,708,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 709; @position = 18; @symbol_constdef = [dithering,709,18,27]; @symbol_type<0> = [String,709,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 710; @position = 18; @symbol_constdef = [packingFormat,710,18,31]; @symbol_type<0> = [String,710,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 713; @symbol_moduledef = [confirmation_size__body,713,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 713; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 714; @position = 18; @symbol_constdef = [width,714,18,23]; @symbol_type<0> = [Number,714,27,33]; ]
+            const width as Number = 220;
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 715; @position = 18; @symbol_constdef = [height,715,18,24]; @symbol_type<0> = [Number,715,28,34]; ]
+            const height as Number = 200;
+        }
+        [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 718; @symbol_moduledef = [system_icon_positive__check,718,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 718; ]
+            <init> {
+            }
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 719; @position = 18; @symbol_constdef = [filename,719,18,26]; @symbol_type<0> = [String,719,30,36]; ]
+            const filename as String = "/Users/noelliechatainsix/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_positive__check.svg";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 720; @position = 18; @symbol_constdef = [dithering,720,18,27]; @symbol_type<0> = [String,720,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 721; @position = 18; @symbol_constdef = [packingFormat,721,18,31]; @symbol_type<0> = [String,721,35,41]; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

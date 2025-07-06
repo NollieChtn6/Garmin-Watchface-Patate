@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="1" lineNum="34" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="1" lineNum="35" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchBackground.mc" id="2" lineNum="6" parent="globals/Background" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="4" lineNum="9" parent="globals/PatateWatchView" pc="268435513" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="5" lineNum="8" parent="globals/PatateWatchApp" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchBackground.mc" id="6" lineNum="8" parent="globals/Background" pc="268435537" symbol="initialize"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchBackground.mc" id="6" lineNum="9" parent="globals/Background" pc="268435540" symbol="initialize"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchBackground.mc" id="6" lineNum="13" parent="globals/Background" pc="268435558" symbol="initialize"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchBackground.mc" id="7" lineNum="16" parent="globals/Background" pc="268435575" symbol="draw"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchBackground.mc" id="7" lineNum="18" parent="globals/Background" pc="268435577" symbol="draw"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchBackground.mc" id="7" lineNum="19" parent="globals/Background" pc="268435608" symbol="draw"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="89" parent="globals/PatateWatchView" pc="268435617" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="90" parent="globals/PatateWatchView" pc="268435620" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="91" parent="globals/PatateWatchView" pc="268435629" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="93" parent="globals/PatateWatchView" pc="268435638" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="95" parent="globals/PatateWatchView" pc="268435650" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="96" parent="globals/PatateWatchView" pc="268435667" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="97" parent="globals/PatateWatchView" pc="268435709" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="98" parent="globals/PatateWatchView" pc="268435751" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="99" parent="globals/PatateWatchView" pc="268435767" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="100" parent="globals/PatateWatchView" pc="268435809" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="102" parent="globals/PatateWatchView" pc="268435851" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="103" parent="globals/PatateWatchView" pc="268435868" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="104" parent="globals/PatateWatchView" pc="268435891" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="105" parent="globals/PatateWatchView" pc="268435914" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="106" parent="globals/PatateWatchView" pc="268435937" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="108" parent="globals/PatateWatchView" pc="268435960" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="109" parent="globals/PatateWatchView" pc="268435983" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="111" parent="globals/PatateWatchView" pc="268436006" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="112" parent="globals/PatateWatchView" pc="268436029" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="114" parent="globals/PatateWatchView" pc="268436052" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="115" parent="globals/PatateWatchView" pc="268436069" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="10" lineNum="116" parent="globals/PatateWatchView" pc="268436092" symbol="drawReferenceLines"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="11" lineNum="16" parent="globals/PatateWatchView" pc="268436116" symbol="onLayout"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="11" lineNum="17" parent="globals/PatateWatchView" pc="268436118" symbol="onLayout"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="12" lineNum="143" parent="globals/PatateWatchView" pc="268436152" symbol="getStepsString"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="12" lineNum="144" parent="globals/PatateWatchView" pc="268436155" symbol="getStepsString"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="12" lineNum="145" parent="globals/PatateWatchView" pc="268436163" symbol="getStepsString"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="12" lineNum="146" parent="globals/PatateWatchView" pc="268436169" symbol="getStepsString"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="12" lineNum="148" parent="globals/PatateWatchView" pc="268436178" symbol="getStepsString"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="13" lineNum="130" parent="globals/PatateWatchView" pc="268436198" symbol="getHeartRate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="13" lineNum="131" parent="globals/PatateWatchView" pc="268436201" symbol="getHeartRate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="13" lineNum="132" parent="globals/PatateWatchView" pc="268436218" symbol="getHeartRate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="14" lineNum="135" parent="globals/PatateWatchView" pc="268436231" symbol="getHeartRateString"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="14" lineNum="136" parent="globals/PatateWatchView" pc="268436233" symbol="getHeartRateString"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="16" lineNum="139" parent="globals/PatateWatchView" pc="268436253" symbol="getSteps"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="16" lineNum="140" parent="globals/PatateWatchView" pc="268436255" symbol="getSteps"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="17" lineNum="151" parent="globals/PatateWatchView" pc="268436271" symbol="getBattery"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="17" lineNum="152" parent="globals/PatateWatchView" pc="268436273" symbol="getBattery"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="18" lineNum="120" parent="globals/PatateWatchView" pc="268436289" symbol="getDate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="18" lineNum="121" parent="globals/PatateWatchView" pc="268436292" symbol="getDate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="18" lineNum="122" parent="globals/PatateWatchView" pc="268436318" symbol="getDate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="18" lineNum="127" parent="globals/PatateWatchView" pc="268436359" symbol="getDate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="19" lineNum="155" parent="globals/PatateWatchView" pc="268436362" symbol="getBatteryString"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="19" lineNum="156" parent="globals/PatateWatchView" pc="268436364" symbol="getBatteryString"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="20" lineNum="11" parent="globals/PatateWatchView" pc="268436390" symbol="initialize"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="20" lineNum="12" parent="globals/PatateWatchView" pc="268436392" symbol="initialize"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="27" parent="globals/PatateWatchView" pc="268436405" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="29" parent="globals/PatateWatchView" pc="268436408" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="30" parent="globals/PatateWatchView" pc="268436415" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="31" parent="globals/PatateWatchView" pc="268436427" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="32" parent="globals/PatateWatchView" pc="268436435" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="33" parent="globals/PatateWatchView" pc="268436454" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="34" parent="globals/PatateWatchView" pc="268436462" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="37" parent="globals/PatateWatchView" pc="268436475" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="38" parent="globals/PatateWatchView" pc="268436495" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="39" parent="globals/PatateWatchView" pc="268436502" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="42" parent="globals/PatateWatchView" pc="268436521" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="45" parent="globals/PatateWatchView" pc="268436568" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="46" parent="globals/PatateWatchView" pc="268436592" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="49" parent="globals/PatateWatchView" pc="268436607" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="50" parent="globals/PatateWatchView" pc="268436631" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="53" parent="globals/PatateWatchView" pc="268436647" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="54" parent="globals/PatateWatchView" pc="268436671" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="57" parent="globals/PatateWatchView" pc="268436687" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="58" parent="globals/PatateWatchView" pc="268436711" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="61" parent="globals/PatateWatchView" pc="268436727" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="62" parent="globals/PatateWatchView" pc="268436751" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="65" parent="globals/PatateWatchView" pc="268436767" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="66" parent="globals/PatateWatchView" pc="268436791" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="67" parent="globals/PatateWatchView" pc="268436818" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="70" parent="globals/PatateWatchView" pc="268436830" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" id="22" lineNum="72" parent="globals/PatateWatchView" pc="268436850" symbol="onUpdate"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="23" lineNum="15" parent="globals/PatateWatchApp" pc="268436862" symbol="onStart"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="24" lineNum="28" parent="globals/PatateWatchApp" pc="268436865" symbol="onSettingsChanged"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="24" lineNum="29" parent="globals/PatateWatchApp" pc="268436867" symbol="onSettingsChanged"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="25" lineNum="23" parent="globals/PatateWatchApp" pc="268436879" symbol="getInitialView"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="25" lineNum="24" parent="globals/PatateWatchApp" pc="268436881" symbol="getInitialView"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="26" lineNum="10" parent="globals/PatateWatchApp" pc="268436907" symbol="initialize"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="26" lineNum="11" parent="globals/PatateWatchApp" pc="268436909" symbol="initialize"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchApp.mc" id="27" lineNum="19" parent="globals/PatateWatchApp" pc="268436922" symbol="onStop"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="28" lineNum="13" parent="globals/Rez/Layouts" pc="268436925" symbol="WatchFace"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="28" lineNum="14" parent="globals/Rez/Layouts" pc="268436936" symbol="WatchFace"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="28" lineNum="16" parent="globals/Rez/Layouts" pc="268436960" symbol="WatchFace"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="28" lineNum="18" parent="globals/Rez/Layouts" pc="268437049" symbol="WatchFace"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="28" lineNum="20" parent="globals/Rez/Layouts" pc="268437138" symbol="WatchFace"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="28" lineNum="22" parent="globals/Rez/Layouts" pc="268437243" symbol="WatchFace"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="28" lineNum="24" parent="globals/Rez/Layouts" pc="268437346" symbol="WatchFace"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="28" lineNum="26" parent="globals/Rez/Layouts" pc="268437435" symbol="WatchFace"/>
+        <entry filename="/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/bin/gen/006-B3704-00/source/Rez.mcgen" id="28" lineNum="28" parent="globals/Rez/Layouts" pc="268437540" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="24" symbol="ColorRed"/>
+        <entry field="true" id="27" symbol="MilitaryFormatTitle"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="15" method="true" symbol="getSteps"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="10" method="true" symbol="getBattery"/>
+        <entry field="true" id="21" symbol="ColorBlue"/>
+        <entry field="true" id="18" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="13" method="true" symbol="getHeartRate"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="16" method="true" symbol="getStepsString"/>
+        <entry id="14" method="true" symbol="getHeartRateString"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="22" symbol="ColorDarkGray"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="12" method="true" symbol="getDate"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="25" symbol="ColorWhite"/>
+        <entry field="true" id="20" symbol="ColorBlack"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="11" method="true" symbol="getBatteryString"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="17" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="19" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="9" method="true" symbol="drawReferenceLines"/>
+        <entry field="true" id="23" symbol="ColorLightGray"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry field="true" id="26" symbol="ForegroundColorTitle"/>
+        <entry id="6" object="true" symbol="PatateWatchApp"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="7" object="true" symbol="PatateWatchView"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435573" name="dictionary" stackId="1" startPc="268435540"/>
+        <entry arg="true" endPc="268435616" name="dc" stackId="1" startPc="268435575"/>
+        <entry arg="true" endPc="268436115" name="dc" stackId="1" startPc="268435617"/>
+        <entry endPc="268436114" name="WIDTH" stackId="2" startPc="268435620"/>
+        <entry endPc="268436114" name="HEIGHT" stackId="3" startPc="268435620"/>
+        <entry arg="true" endPc="268436151" name="dc" stackId="1" startPc="268436116"/>
+        <entry endPc="268436197" name="steps" stackId="1" startPc="268436155"/>
+        <entry endPc="268436230" name="heartrateIterator" stackId="1" startPc="268436201"/>
+        <entry endPc="268436361" name="now" stackId="1" startPc="268436292"/>
+        <entry endPc="268436361" name="dateString" stackId="2" startPc="268436292"/>
+        <entry arg="true" endPc="268436861" name="dc" stackId="1" startPc="268436405"/>
+        <entry endPc="268436860" name="timeFormat" stackId="2" startPc="268436408"/>
+        <entry endPc="268436860" name="clockTime" stackId="3" startPc="268436408"/>
+        <entry endPc="268436860" name="hours" stackId="4" startPc="268436408"/>
+        <entry endPc="268436860" name="timeString" stackId="5" startPc="268436408"/>
+        <entry endPc="268436860" name="helloYouLabel" stackId="6" startPc="268436408"/>
+        <entry endPc="268436860" name="dateLabel" stackId="7" startPc="268436408"/>
+        <entry endPc="268436860" name="heartRateLabel" stackId="8" startPc="268436408"/>
+        <entry endPc="268436860" name="stepsLabel" stackId="9" startPc="268436408"/>
+        <entry endPc="268436860" name="batteryLabel" stackId="10" startPc="268436408"/>
+        <entry endPc="268436860" name="view" stackId="11" startPc="268436408"/>
+        <entry arg="true" endPc="268437579" name="dc" stackId="1" startPc="268436925"/>
+        <entry endPc="268437579" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268436936"/>
+        <entry endPc="268437579" name="rez_cmp_local_text_BatteryLabel" stackId="3" startPc="268436936"/>
+        <entry endPc="268437579" name="rez_cmp_local_text_HelloYou" stackId="4" startPc="268436936"/>
+        <entry endPc="268437579" name="rez_cmp_local_text_TimeLabel" stackId="5" startPc="268436936"/>
+        <entry endPc="268437579" name="rez_cmp_local_text_DateLabel" stackId="6" startPc="268436936"/>
+        <entry endPc="268437579" name="rez_cmp_local_text_StepsLabel" stackId="7" startPc="268436936"/>
+        <entry endPc="268437579" name="rez_cmp_local_text_HeartRateLabel" stackId="8" startPc="268436936"/>
+    </localVars>
+    <deviceInfo deviceVersion="c3c85f7bae6fb4aafa9acce2937cf0e1d7b137f1" partNumber="006-B3704-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="134" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="187" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/PatateWatchView" offset="240" parentId="globals" symbolId="PatateWatchView" type="class"/>
+        <dataEntry label="globals/PatateWatchApp" offset="410" parentId="globals" symbolId="PatateWatchApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="490" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="525" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="560" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="&lt;init&gt;" parent="Background" startPc="268435481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="Rez" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="PatateWatchView" startPc="268435513">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="PatateWatchApp" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435574" name="initialize" parent="Background" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435616" name="draw" parent="Background" startPc="268435575">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="PatateWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="PatateWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436115" name="drawReferenceLines" parent="PatateWatchView" startPc="268435617">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436151" name="onLayout" parent="PatateWatchView" startPc="268436116">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436197" name="getStepsString" parent="PatateWatchView" startPc="268436152">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436230" name="getHeartRate" parent="PatateWatchView" startPc="268436198">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436252" name="getHeartRateString" parent="PatateWatchView" startPc="268436231">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="PatateWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436270" name="getSteps" parent="PatateWatchView" startPc="268436253">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436288" name="getBattery" parent="PatateWatchView" startPc="268436271">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436361" name="getDate" parent="PatateWatchView" startPc="268436289">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436389" name="getBatteryString" parent="PatateWatchView" startPc="268436362">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436404" name="initialize" parent="PatateWatchView" startPc="268436390">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="PatateWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436861" name="onUpdate" parent="PatateWatchView" startPc="268436405">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436864" name="onStart" parent="PatateWatchApp" startPc="268436862">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436878" name="onSettingsChanged" parent="PatateWatchApp" startPc="268436865">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436906" name="getInitialView" parent="PatateWatchApp" startPc="268436879">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436921" name="initialize" parent="PatateWatchApp" startPc="268436907">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436924" name="onStop" parent="PatateWatchApp" startPc="268436922">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437579" name="WatchFace" parent="Layouts" startPc="268436925">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

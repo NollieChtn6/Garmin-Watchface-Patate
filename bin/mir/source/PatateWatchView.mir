@@ -1,0 +1,874 @@
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [WatchUi,5,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Time,6,14,18]; ]
+import Toybox.Time;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Time,7,14,18]; @symbol_importdef<2> = [Gregorian,7,19,28]; ]
+import Toybox.Time.Gregorian;
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 9; @symbol_classdef = [PatateWatchView,9,6,21]; @symbol_extends<0> = [WatchUi,9,30,37]; @symbol_extends<1> = [WatchFace,9,38,47]; ]
+class PatateWatchView extends WatchUi.WatchFace {
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 9; ]
+    <init> {
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 9; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
+    function initialize() as Void {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_11_26_13_4_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 12 8 ]
+        symbol [ WatchFace %tmp.2 12 8 17 ];
+        %tmp.2 = getv ? :WatchFace;
+        symbol [ initialize %tmp.3 12 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_11_26_13_4_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 16; @symbol_functiondef = [onLayout,16,13,21]; @symbol_param<0> = [dc,16,22,24]; @symbol_param<0>_type<0> = [Dc,16,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_16_40_18_4_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 17 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 17 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 17 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 17 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ WatchFace %tmp.6 17 30 39 ];
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 17 40 42 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_16_40_18_4_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 23; @symbol_functiondef = [onShow,23,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 27; @symbol_functiondef = [onUpdate,27,13,21]; @symbol_param<0> = [dc,27,22,24]; @symbol_param<0>_type<0> = [Dc,27,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 29 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %timeFormat.1 = local;
+        symbol [ timeFormat %timeFormat.1 29 12 22 ];
+        %tmp.1 = "$1$:$2$";
+        lputv %timeFormat.1 %tmp.1;
+        symbol [ timeFormat %timeFormat.1 29 12 22 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 30 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %clockTime.2 = local;
+        symbol [ clockTime %clockTime.2 30 12 21 ];
+        symbol [ System %tmp.2 30 24 30 ];
+        %tmp.2 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.3 30 31 43 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.2 %tmp.4;
+        symbol [ clockTime %clockTime.2 30 12 21 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 31 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %hours.3 = local;
+        symbol [ hours %hours.3 31 12 17 ];
+        %tmp.5 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.5 31 20 29 ];
+        symbol [ hour %tmp.6 31 30 34 ];
+        %tmp.6 = getv %tmp.5 :hour;
+        lputv %hours.3 %tmp.6;
+        symbol [ hours %hours.3 31 12 17 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 32 8 ]
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_32_8_41_8_if_stmt:
+        symbol [ System %tmp.7 32 13 19 ];
+        %tmp.7 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.8 32 20 37 ];
+        %tmp.8 = getv function %tmp.7 :getDeviceSettings;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        symbol [ is24Hour %tmp.10 32 40 48 ];
+        %tmp.10 = getv %tmp.9 :is24Hour;
+        %tmp.11 = not %tmp.10;
+        bf %tmp.11 @_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_32_8_41_8_if_else_false;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_32_8_41_8_if_true:
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_32_50_36_8_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 33 12 ]
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_33_12_35_12_if_stmt:
+        %tmp.12 = lgetv %hours.3;
+        symbol [ hours %tmp.12 33 16 21 ];
+        %tmp.13 = 12;
+        %tmp.14 = gt %tmp.12 %tmp.13;
+        bf %tmp.14 @_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_33_12_35_12_if_end;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_33_12_35_12_if_true:
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_33_28_35_12_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 34 16 ]
+        %tmp.15 = lgetv %hours.3;
+        symbol [ hours %tmp.15 34 24 29 ];
+        %tmp.16 = 12;
+        %tmp.17 = sub %tmp.15 %tmp.16;
+        lputv %hours.3 %tmp.17;
+        symbol [ hours %hours.3 34 16 21 ];
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_33_28_35_12_stop:
+        goto @_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_33_12_35_12_if_end;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_33_12_35_12_if_end:
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_32_50_36_8_stop:
+        goto @_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_32_8_41_8_if_end;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_32_8_41_8_if_else_false:
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_36_15_41_8_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 37 12 ]
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_37_12_40_12_if_stmt:
+        symbol [ Application %tmp.18 37 16 27 ];
+        %tmp.18 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.19 37 28 38 ];
+        %tmp.19 = getv %tmp.18 :Properties;
+        symbol [ getValue %tmp.20 37 39 47 ];
+        %tmp.20 = getv function %tmp.19 :getValue;
+        %tmp.21 = "UseMilitaryFormat";
+        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
+        bf %tmp.22 @_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_37_12_40_12_if_end;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_37_12_40_12_if_true:
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_37_70_40_12_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 38 16 ]
+        %tmp.23 = "$1$$2$";
+        lputv %timeFormat.1 %tmp.23;
+        symbol [ timeFormat %timeFormat.1 38 16 26 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 39 16 ]
+        %tmp.24 = lgetv %hours.3;
+        symbol [ hours %tmp.24 39 24 29 ];
+        symbol [ format %tmp.25 39 30 36 ];
+        %tmp.25 = getv function %tmp.24 :format;
+        %tmp.26 = "%02d";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        lputv %hours.3 %tmp.27;
+        symbol [ hours %hours.3 39 16 21 ];
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_37_70_40_12_stop:
+        goto @_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_37_12_40_12_if_end;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_37_12_40_12_if_end:
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_36_15_41_8_stop:
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_32_8_41_8_if_end:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 42 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %timeString.4 = local;
+        symbol [ timeString %timeString.4 42 12 22 ];
+        symbol [ Lang %tmp.28 42 25 29 ];
+        %tmp.28 = getm $.Toybox.Lang;
+        symbol [ format %tmp.29 42 30 36 ];
+        %tmp.29 = getv function %tmp.28 :format;
+        %tmp.30 = lgetv %timeFormat.1;
+        symbol [ timeFormat %tmp.30 42 37 47 ];
+        %tmp.31 = newa 2;
+        %tmp.32 = lgetv %hours.3;
+        symbol [ hours %tmp.32 42 50 55 ];
+        %tmp.33 = dup %tmp.31;
+        %tmp.34 = aputv %tmp.33 0 %tmp.32;
+        %tmp.35 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.35 42 57 66 ];
+        symbol [ min %tmp.36 42 67 70 ];
+        %tmp.36 = getv %tmp.35 :min;
+        symbol [ format %tmp.37 42 71 77 ];
+        %tmp.37 = getv function %tmp.36 :format;
+        %tmp.38 = "%02d";
+        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
+        %tmp.40 = dup %tmp.34;
+        %tmp.41 = aputv %tmp.40 1 %tmp.39;
+        %tmp.42 = invoke %tmp.28 %tmp.29(%tmp.30, %tmp.41);
+        lputv %timeString.4 %tmp.42;
+        symbol [ timeString %timeString.4 42 12 22 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 45 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %helloYouLabel.5 = local;
+        symbol [ helloYouLabel %helloYouLabel.5 45 12 25 ];
+        symbol [ View %tmp.44 45 28 32 ];
+        %tmp.44 = getv ? :View;
+        symbol [ findDrawableById %tmp.45 45 33 49 ];
+        %tmp.45 = getv function %tmp.44 :findDrawableById;
+        %tmp.46 = "HelloYou";
+        %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
+        %tmp.48 = as %tmp.47 Text;
+        symbol [ Text %tmp.48 45 65 69 ];
+        lputv %helloYouLabel.5 %tmp.48;
+        symbol [ helloYouLabel %helloYouLabel.5 45 12 25 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 46 8 ]
+        %tmp.49 = lgetv %helloYouLabel.5;
+        symbol [ helloYouLabel %tmp.49 46 8 21 ];
+        symbol [ setText %tmp.50 46 22 29 ];
+        %tmp.50 = getv function %tmp.49 :setText;
+        %tmp.51 = "Hello You!";
+        invoke %tmp.49 %tmp.50(%tmp.51);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 49 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %dateLabel.6 = local;
+        symbol [ dateLabel %dateLabel.6 49 12 21 ];
+        symbol [ View %tmp.53 49 24 28 ];
+        %tmp.53 = getv ? :View;
+        symbol [ findDrawableById %tmp.54 49 29 45 ];
+        %tmp.54 = getv function %tmp.53 :findDrawableById;
+        %tmp.55 = "DateLabel";
+        %tmp.56 = invoke %tmp.53 %tmp.54(%tmp.55);
+        %tmp.57 = as %tmp.56 Text;
+        symbol [ Text %tmp.57 49 62 66 ];
+        lputv %dateLabel.6 %tmp.57;
+        symbol [ dateLabel %dateLabel.6 49 12 21 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 50 8 ]
+        %tmp.58 = lgetv %dateLabel.6;
+        symbol [ dateLabel %tmp.58 50 8 17 ];
+        symbol [ setText %tmp.59 50 18 25 ];
+        %tmp.59 = getv function %tmp.58 :setText;
+        %tmp.60 = self;
+        symbol [ getDate %tmp.61 50 26 33 ];
+        %tmp.61 = getv function %tmp.60 :getDate;
+        %tmp.62 = invoke %tmp.60 %tmp.61();
+        invoke %tmp.58 %tmp.59(%tmp.62);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 53 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %heartRateLabel.7 = local;
+        symbol [ heartRateLabel %heartRateLabel.7 53 12 26 ];
+        symbol [ View %tmp.64 53 29 33 ];
+        %tmp.64 = getv ? :View;
+        symbol [ findDrawableById %tmp.65 53 34 50 ];
+        %tmp.65 = getv function %tmp.64 :findDrawableById;
+        %tmp.66 = "HeartRateLabel";
+        %tmp.67 = invoke %tmp.64 %tmp.65(%tmp.66);
+        %tmp.68 = as %tmp.67 Text;
+        symbol [ Text %tmp.68 53 72 76 ];
+        lputv %heartRateLabel.7 %tmp.68;
+        symbol [ heartRateLabel %heartRateLabel.7 53 12 26 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 54 8 ]
+        %tmp.69 = lgetv %heartRateLabel.7;
+        symbol [ heartRateLabel %tmp.69 54 8 22 ];
+        symbol [ setText %tmp.70 54 23 30 ];
+        %tmp.70 = getv function %tmp.69 :setText;
+        %tmp.71 = self;
+        symbol [ getHeartRateString %tmp.72 54 31 49 ];
+        %tmp.72 = getv function %tmp.71 :getHeartRateString;
+        %tmp.73 = invoke %tmp.71 %tmp.72();
+        invoke %tmp.69 %tmp.70(%tmp.73);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 57 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %stepsLabel.8 = local;
+        symbol [ stepsLabel %stepsLabel.8 57 12 22 ];
+        symbol [ View %tmp.75 57 25 29 ];
+        %tmp.75 = getv ? :View;
+        symbol [ findDrawableById %tmp.76 57 30 46 ];
+        %tmp.76 = getv function %tmp.75 :findDrawableById;
+        %tmp.77 = "StepsLabel";
+        %tmp.78 = invoke %tmp.75 %tmp.76(%tmp.77);
+        %tmp.79 = as %tmp.78 Text;
+        symbol [ Text %tmp.79 57 64 68 ];
+        lputv %stepsLabel.8 %tmp.79;
+        symbol [ stepsLabel %stepsLabel.8 57 12 22 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 58 8 ]
+        %tmp.80 = lgetv %stepsLabel.8;
+        symbol [ stepsLabel %tmp.80 58 8 18 ];
+        symbol [ setText %tmp.81 58 19 26 ];
+        %tmp.81 = getv function %tmp.80 :setText;
+        %tmp.82 = self;
+        symbol [ getStepsString %tmp.83 58 27 41 ];
+        %tmp.83 = getv function %tmp.82 :getStepsString;
+        %tmp.84 = invoke %tmp.82 %tmp.83();
+        invoke %tmp.80 %tmp.81(%tmp.84);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 61 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %batteryLabel.9 = local;
+        symbol [ batteryLabel %batteryLabel.9 61 12 24 ];
+        symbol [ View %tmp.86 61 27 31 ];
+        %tmp.86 = getv ? :View;
+        symbol [ findDrawableById %tmp.87 61 32 48 ];
+        %tmp.87 = getv function %tmp.86 :findDrawableById;
+        %tmp.88 = "BatteryLabel";
+        %tmp.89 = invoke %tmp.86 %tmp.87(%tmp.88);
+        %tmp.90 = as %tmp.89 Text;
+        symbol [ Text %tmp.90 61 68 72 ];
+        lputv %batteryLabel.9 %tmp.90;
+        symbol [ batteryLabel %batteryLabel.9 61 12 24 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 62 8 ]
+        %tmp.91 = lgetv %batteryLabel.9;
+        symbol [ batteryLabel %tmp.91 62 8 20 ];
+        symbol [ setText %tmp.92 62 21 28 ];
+        %tmp.92 = getv function %tmp.91 :setText;
+        %tmp.93 = self;
+        symbol [ getBatteryString %tmp.94 62 29 45 ];
+        %tmp.94 = getv function %tmp.93 :getBatteryString;
+        %tmp.95 = invoke %tmp.93 %tmp.94();
+        invoke %tmp.91 %tmp.92(%tmp.95);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 65 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop" ]
+        %view.10 = local;
+        symbol [ view %view.10 65 12 16 ];
+        symbol [ View %tmp.97 65 19 23 ];
+        %tmp.97 = getv ? :View;
+        symbol [ findDrawableById %tmp.98 65 24 40 ];
+        %tmp.98 = getv function %tmp.97 :findDrawableById;
+        %tmp.99 = "TimeLabel";
+        %tmp.100 = invoke %tmp.97 %tmp.98(%tmp.99);
+        %tmp.101 = as %tmp.100 Text;
+        symbol [ Text %tmp.101 65 57 61 ];
+        lputv %view.10 %tmp.101;
+        symbol [ view %view.10 65 12 16 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 66 8 ]
+        %tmp.102 = lgetv %view.10;
+        symbol [ view %tmp.102 66 8 12 ];
+        symbol [ setColor %tmp.103 66 13 21 ];
+        %tmp.103 = getv function %tmp.102 :setColor;
+        symbol [ Application %tmp.104 66 22 33 ];
+        %tmp.104 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.105 66 34 44 ];
+        %tmp.105 = getv %tmp.104 :Properties;
+        symbol [ getValue %tmp.106 66 45 53 ];
+        %tmp.106 = getv function %tmp.105 :getValue;
+        %tmp.107 = "ForegroundColor";
+        %tmp.108 = invoke %tmp.105 %tmp.106(%tmp.107);
+        %tmp.109 = as %tmp.108 Number;
+        symbol [ Number %tmp.109 66 76 82 ];
+        invoke %tmp.102 %tmp.103(%tmp.109);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 67 8 ]
+        %tmp.110 = lgetv %view.10;
+        symbol [ view %tmp.110 67 8 12 ];
+        symbol [ setText %tmp.111 67 13 20 ];
+        %tmp.111 = getv function %tmp.110 :setText;
+        %tmp.112 = lgetv %timeString.4;
+        symbol [ timeString %tmp.112 67 21 31 ];
+        invoke %tmp.110 %tmp.111(%tmp.112);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 70 8 ]
+        symbol [ View %tmp.114 70 8 12 ];
+        %tmp.114 = getv ? :View;
+        symbol [ onUpdate %tmp.115 70 13 21 ];
+        %tmp.115 = getv function %tmp.114 :onUpdate;
+        %tmp.116 = lgetv %dc;
+        symbol [ dc %tmp.116 70 22 24 ];
+        invoke %tmp.114 %tmp.115(%tmp.116);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 72 8 ]
+        %tmp.117 = self;
+        symbol [ drawReferenceLines %tmp.118 72 8 26 ];
+        %tmp.118 = getv function %tmp.117 :drawReferenceLines;
+        %tmp.119 = lgetv %dc;
+        symbol [ dc %tmp.119 72 27 29 ];
+        %tmp.120 = as %tmp.119 Dc;
+        symbol [ Dc %tmp.120 72 33 35 ];
+        invoke %tmp.117 %tmp.118(%tmp.120);
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_27_40_73_4_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 78; @symbol_functiondef = [onHide,78,13,19]; ]
+    function onHide() as Void {
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 82; @symbol_functiondef = [onExitSleep,82,13,24]; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 86; @symbol_functiondef = [onEnterSleep,86,13,25]; ]
+    function onEnterSleep() as Void {
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 89; @symbol_functiondef = [drawReferenceLines,89,13,31]; @symbol_param<0> = [dc,89,32,34]; @symbol_param<0>_type<0> = [Dc,89,38,40]; ]
+    function drawReferenceLines(dc as Dc) as Void {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_89_50_117_4_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 90 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_89_50_117_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_89_50_117_4_stop" ]
+        %WIDTH.1 = local;
+        symbol [ WIDTH %WIDTH.1 90 12 17 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 90 20 22 ];
+        symbol [ getWidth %tmp.2 90 23 31 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %WIDTH.1 %tmp.3;
+        symbol [ WIDTH %WIDTH.1 90 12 17 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 91 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_89_50_117_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_89_50_117_4_stop" ]
+        %HEIGHT.2 = local;
+        symbol [ HEIGHT %HEIGHT.2 91 12 18 ];
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 91 21 23 ];
+        symbol [ getHeight %tmp.5 91 24 33 ];
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %HEIGHT.2 %tmp.6;
+        symbol [ HEIGHT %HEIGHT.2 91 12 18 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 93 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 93 8 10 ];
+        symbol [ setPenWidth %tmp.8 93 11 22 ];
+        %tmp.8 = getv function %tmp.7 :setPenWidth;
+        %tmp.9 = 1;
+        invoke %tmp.7 %tmp.8(%tmp.9);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 95 8 ]
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 95 8 10 ];
+        symbol [ setColor %tmp.11 95 11 19 ];
+        %tmp.11 = getv function %tmp.10 :setColor;
+        symbol [ Graphics %tmp.12 95 20 28 ];
+        %tmp.12 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.13 95 29 40 ];
+        %tmp.13 = getv %tmp.12 :COLOR_WHITE;
+        symbol [ Graphics %tmp.14 95 42 50 ];
+        %tmp.14 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.15 95 51 68 ];
+        %tmp.15 = getv %tmp.14 :COLOR_TRANSPARENT;
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 96 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 96 8 10 ];
+        symbol [ drawRectangle %tmp.17 96 11 24 ];
+        %tmp.17 = getv function %tmp.16 :drawRectangle;
+        %tmp.18 = 0.2;
+        %tmp.19 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.19 96 31 36 ];
+        %tmp.20 = mul %tmp.18 %tmp.19;
+        %tmp.21 = 0.1;
+        %tmp.22 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.22 96 44 50 ];
+        %tmp.23 = mul %tmp.21 %tmp.22;
+        %tmp.24 = 0.6;
+        %tmp.25 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.25 96 58 63 ];
+        %tmp.26 = mul %tmp.24 %tmp.25;
+        %tmp.27 = 0.8;
+        %tmp.28 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.28 96 71 77 ];
+        %tmp.29 = mul %tmp.27 %tmp.28;
+        invoke %tmp.16 %tmp.17(%tmp.20, %tmp.23, %tmp.26, %tmp.29);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 97 8 ]
+        %tmp.30 = lgetv %dc;
+        symbol [ dc %tmp.30 97 8 10 ];
+        symbol [ drawRectangle %tmp.31 97 11 24 ];
+        %tmp.31 = getv function %tmp.30 :drawRectangle;
+        %tmp.32 = 0.15;
+        %tmp.33 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.33 97 32 37 ];
+        %tmp.34 = mul %tmp.32 %tmp.33;
+        %tmp.35 = 0.15;
+        %tmp.36 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.36 97 46 52 ];
+        %tmp.37 = mul %tmp.35 %tmp.36;
+        %tmp.38 = 0.7;
+        %tmp.39 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.39 97 60 65 ];
+        %tmp.40 = mul %tmp.38 %tmp.39;
+        %tmp.41 = 0.7;
+        %tmp.42 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.42 97 73 79 ];
+        %tmp.43 = mul %tmp.41 %tmp.42;
+        invoke %tmp.30 %tmp.31(%tmp.34, %tmp.37, %tmp.40, %tmp.43);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 98 8 ]
+        %tmp.44 = lgetv %dc;
+        symbol [ dc %tmp.44 98 8 10 ];
+        symbol [ setColor %tmp.45 98 11 19 ];
+        %tmp.45 = getv function %tmp.44 :setColor;
+        symbol [ Graphics %tmp.46 98 20 28 ];
+        %tmp.46 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLUE %tmp.47 98 29 39 ];
+        %tmp.47 = getv %tmp.46 :COLOR_BLUE;
+        symbol [ Graphics %tmp.48 98 41 49 ];
+        %tmp.48 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.49 98 50 67 ];
+        %tmp.49 = getv %tmp.48 :COLOR_TRANSPARENT;
+        invoke %tmp.44 %tmp.45(%tmp.47, %tmp.49);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 99 8 ]
+        %tmp.50 = lgetv %dc;
+        symbol [ dc %tmp.50 99 8 10 ];
+        symbol [ drawRectangle %tmp.51 99 11 24 ];
+        %tmp.51 = getv function %tmp.50 :drawRectangle;
+        %tmp.52 = 0.1;
+        %tmp.53 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.53 99 31 36 ];
+        %tmp.54 = mul %tmp.52 %tmp.53;
+        %tmp.55 = 0.2;
+        %tmp.56 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.56 99 44 50 ];
+        %tmp.57 = mul %tmp.55 %tmp.56;
+        %tmp.58 = 0.8;
+        %tmp.59 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.59 99 58 63 ];
+        %tmp.60 = mul %tmp.58 %tmp.59;
+        %tmp.61 = 0.6;
+        %tmp.62 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.62 99 71 77 ];
+        %tmp.63 = mul %tmp.61 %tmp.62;
+        invoke %tmp.50 %tmp.51(%tmp.54, %tmp.57, %tmp.60, %tmp.63);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 100 8 ]
+        %tmp.64 = lgetv %dc;
+        symbol [ dc %tmp.64 100 8 10 ];
+        symbol [ drawRectangle %tmp.65 100 11 24 ];
+        %tmp.65 = getv function %tmp.64 :drawRectangle;
+        %tmp.66 = 0.05;
+        %tmp.67 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.67 100 32 37 ];
+        %tmp.68 = mul %tmp.66 %tmp.67;
+        %tmp.69 = 0.3;
+        %tmp.70 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.70 100 45 51 ];
+        %tmp.71 = mul %tmp.69 %tmp.70;
+        %tmp.72 = 0.9;
+        %tmp.73 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.73 100 59 64 ];
+        %tmp.74 = mul %tmp.72 %tmp.73;
+        %tmp.75 = 0.4;
+        %tmp.76 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.76 100 72 78 ];
+        %tmp.77 = mul %tmp.75 %tmp.76;
+        invoke %tmp.64 %tmp.65(%tmp.68, %tmp.71, %tmp.74, %tmp.77);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 102 8 ]
+        %tmp.78 = lgetv %dc;
+        symbol [ dc %tmp.78 102 8 10 ];
+        symbol [ setColor %tmp.79 102 11 19 ];
+        %tmp.79 = getv function %tmp.78 :setColor;
+        symbol [ Graphics %tmp.80 102 20 28 ];
+        %tmp.80 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.81 102 29 40 ];
+        %tmp.81 = getv %tmp.80 :COLOR_WHITE;
+        symbol [ Graphics %tmp.82 102 42 50 ];
+        %tmp.82 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.83 102 51 68 ];
+        %tmp.83 = getv %tmp.82 :COLOR_TRANSPARENT;
+        invoke %tmp.78 %tmp.79(%tmp.81, %tmp.83);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 103 8 ]
+        %tmp.84 = lgetv %dc;
+        symbol [ dc %tmp.84 103 8 10 ];
+        symbol [ fillRectangle %tmp.85 103 11 24 ];
+        %tmp.85 = getv function %tmp.84 :fillRectangle;
+        %tmp.86 = 0;
+        %tmp.87 = 0.25;
+        %tmp.88 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.88 103 35 41 ];
+        %tmp.89 = mul %tmp.87 %tmp.88;
+        %tmp.90 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.90 103 43 48 ];
+        %tmp.91 = 1;
+        invoke %tmp.84 %tmp.85(%tmp.86, %tmp.89, %tmp.90, %tmp.91);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 104 8 ]
+        %tmp.92 = lgetv %dc;
+        symbol [ dc %tmp.92 104 8 10 ];
+        symbol [ fillRectangle %tmp.93 104 11 24 ];
+        %tmp.93 = getv function %tmp.92 :fillRectangle;
+        %tmp.94 = 0;
+        %tmp.95 = 0.5;
+        %tmp.96 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.96 104 34 40 ];
+        %tmp.97 = mul %tmp.95 %tmp.96;
+        %tmp.98 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.98 104 42 47 ];
+        %tmp.99 = 1;
+        invoke %tmp.92 %tmp.93(%tmp.94, %tmp.97, %tmp.98, %tmp.99);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 105 8 ]
+        %tmp.100 = lgetv %dc;
+        symbol [ dc %tmp.100 105 8 10 ];
+        symbol [ fillRectangle %tmp.101 105 11 24 ];
+        %tmp.101 = getv function %tmp.100 :fillRectangle;
+        %tmp.102 = 0;
+        %tmp.103 = 0.75;
+        %tmp.104 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.104 105 35 41 ];
+        %tmp.105 = mul %tmp.103 %tmp.104;
+        %tmp.106 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.106 105 43 48 ];
+        %tmp.107 = 1;
+        invoke %tmp.100 %tmp.101(%tmp.102, %tmp.105, %tmp.106, %tmp.107);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 106 8 ]
+        %tmp.108 = lgetv %dc;
+        symbol [ dc %tmp.108 106 8 10 ];
+        symbol [ fillRectangle %tmp.109 106 11 24 ];
+        %tmp.109 = getv function %tmp.108 :fillRectangle;
+        %tmp.110 = 0.25;
+        %tmp.111 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.111 106 32 37 ];
+        %tmp.112 = mul %tmp.110 %tmp.111;
+        %tmp.113 = 0;
+        %tmp.114 = 1;
+        %tmp.115 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.115 106 45 51 ];
+        invoke %tmp.108 %tmp.109(%tmp.112, %tmp.113, %tmp.114, %tmp.115);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 108 8 ]
+        %tmp.116 = lgetv %dc;
+        symbol [ dc %tmp.116 108 8 10 ];
+        symbol [ fillRectangle %tmp.117 108 11 24 ];
+        %tmp.117 = getv function %tmp.116 :fillRectangle;
+        %tmp.118 = 0.1;
+        %tmp.119 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.119 108 31 36 ];
+        %tmp.120 = mul %tmp.118 %tmp.119;
+        %tmp.121 = 0;
+        %tmp.122 = 1;
+        %tmp.123 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.123 108 44 50 ];
+        invoke %tmp.116 %tmp.117(%tmp.120, %tmp.121, %tmp.122, %tmp.123);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 109 8 ]
+        %tmp.124 = lgetv %dc;
+        symbol [ dc %tmp.124 109 8 10 ];
+        symbol [ fillRectangle %tmp.125 109 11 24 ];
+        %tmp.125 = getv function %tmp.124 :fillRectangle;
+        %tmp.126 = 0.9;
+        %tmp.127 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.127 109 31 36 ];
+        %tmp.128 = mul %tmp.126 %tmp.127;
+        %tmp.129 = 0;
+        %tmp.130 = 1;
+        %tmp.131 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.131 109 44 50 ];
+        invoke %tmp.124 %tmp.125(%tmp.128, %tmp.129, %tmp.130, %tmp.131);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 111 8 ]
+        %tmp.132 = lgetv %dc;
+        symbol [ dc %tmp.132 111 8 10 ];
+        symbol [ fillRectangle %tmp.133 111 11 24 ];
+        %tmp.133 = getv function %tmp.132 :fillRectangle;
+        %tmp.134 = 0.5;
+        %tmp.135 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.135 111 31 36 ];
+        %tmp.136 = mul %tmp.134 %tmp.135;
+        %tmp.137 = 0;
+        %tmp.138 = 1;
+        %tmp.139 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.139 111 44 50 ];
+        invoke %tmp.132 %tmp.133(%tmp.136, %tmp.137, %tmp.138, %tmp.139);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 112 8 ]
+        %tmp.140 = lgetv %dc;
+        symbol [ dc %tmp.140 112 8 10 ];
+        symbol [ fillRectangle %tmp.141 112 11 24 ];
+        %tmp.141 = getv function %tmp.140 :fillRectangle;
+        %tmp.142 = 0.75;
+        %tmp.143 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.143 112 32 37 ];
+        %tmp.144 = mul %tmp.142 %tmp.143;
+        %tmp.145 = 0;
+        %tmp.146 = 1;
+        %tmp.147 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.147 112 45 51 ];
+        invoke %tmp.140 %tmp.141(%tmp.144, %tmp.145, %tmp.146, %tmp.147);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 114 8 ]
+        %tmp.148 = lgetv %dc;
+        symbol [ dc %tmp.148 114 8 10 ];
+        symbol [ setColor %tmp.149 114 11 19 ];
+        %tmp.149 = getv function %tmp.148 :setColor;
+        symbol [ Graphics %tmp.150 114 20 28 ];
+        %tmp.150 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.151 114 29 38 ];
+        %tmp.151 = getv %tmp.150 :COLOR_RED;
+        symbol [ Graphics %tmp.152 114 40 48 ];
+        %tmp.152 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.153 114 49 66 ];
+        %tmp.153 = getv %tmp.152 :COLOR_TRANSPARENT;
+        invoke %tmp.148 %tmp.149(%tmp.151, %tmp.153);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 115 8 ]
+        %tmp.154 = lgetv %dc;
+        symbol [ dc %tmp.154 115 8 10 ];
+        symbol [ fillRectangle %tmp.155 115 11 24 ];
+        %tmp.155 = getv function %tmp.154 :fillRectangle;
+        %tmp.156 = 0.3333;
+        %tmp.157 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.157 115 34 39 ];
+        %tmp.158 = mul %tmp.156 %tmp.157;
+        %tmp.159 = 0;
+        %tmp.160 = 1;
+        %tmp.161 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.161 115 47 53 ];
+        invoke %tmp.154 %tmp.155(%tmp.158, %tmp.159, %tmp.160, %tmp.161);
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 116 8 ]
+        %tmp.162 = lgetv %dc;
+        symbol [ dc %tmp.162 116 8 10 ];
+        symbol [ fillRectangle %tmp.163 116 11 24 ];
+        %tmp.163 = getv function %tmp.162 :fillRectangle;
+        %tmp.164 = 0.6666;
+        %tmp.165 = lgetv %WIDTH.1;
+        symbol [ WIDTH %tmp.165 116 34 39 ];
+        %tmp.166 = mul %tmp.164 %tmp.165;
+        %tmp.167 = 0;
+        %tmp.168 = 1;
+        %tmp.169 = lgetv %HEIGHT.2;
+        symbol [ HEIGHT %tmp.169 116 47 53 ];
+        invoke %tmp.162 %tmp.163(%tmp.166, %tmp.167, %tmp.168, %tmp.169);
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_89_50_117_4_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 120; @symbol_functiondef = [getDate,120,13,20]; @symbol_return<0> = [String,120,26,32]; ]
+    function getDate() as String {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_120_33_128_4_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 121 4 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_120_33_128_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_120_33_128_4_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 121 8 11 ];
+        symbol [ Gregorian %tmp.1 121 14 23 ];
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.2 121 24 28 ];
+        %tmp.2 = getv function %tmp.1 :info;
+        symbol [ Time %tmp.3 121 29 33 ];
+        %tmp.3 = getm $.Toybox.Time;
+        symbol [ now %tmp.4 121 34 37 ];
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ Time %tmp.6 121 41 45 ];
+        %tmp.6 = getm $.Toybox.Time;
+        symbol [ FORMAT_MEDIUM %tmp.7 121 46 59 ];
+        %tmp.7 = getv %tmp.6 :FORMAT_MEDIUM;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %now.1 %tmp.8;
+        symbol [ now %now.1 121 8 11 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 122 4 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_120_33_128_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_120_33_128_4_stop" ]
+        %dateString.2 = local;
+        symbol [ dateString %dateString.2 122 8 18 ];
+        symbol [ Lang %tmp.9 122 21 25 ];
+        %tmp.9 = getm $.Toybox.Lang;
+        symbol [ format %tmp.10 122 26 32 ];
+        %tmp.10 = getv function %tmp.9 :format;
+        %tmp.11 = "$1$ $2$";
+        %tmp.12 = newa 2;
+        %tmp.13 = lgetv %now.1;
+        symbol [ now %tmp.13 123 16 19 ];
+        symbol [ day_of_week %tmp.14 123 20 31 ];
+        %tmp.14 = getv %tmp.13 :day_of_week;
+        %tmp.15 = dup %tmp.12;
+        %tmp.16 = aputv %tmp.15 0 %tmp.14;
+        %tmp.17 = lgetv %now.1;
+        symbol [ now %tmp.17 124 16 19 ];
+        symbol [ day %tmp.18 124 20 23 ];
+        %tmp.18 = getv %tmp.17 :day;
+        %tmp.19 = dup %tmp.16;
+        %tmp.20 = aputv %tmp.19 1 %tmp.18;
+        %tmp.21 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.20);
+        lputv %dateString.2 %tmp.21;
+        symbol [ dateString %dateString.2 122 8 18 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 127 4 ]
+        %tmp.22 = lgetv %dateString.2;
+        symbol [ dateString %tmp.22 127 11 21 ];
+        ret %tmp.22;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_120_33_128_4_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 130; @symbol_functiondef = [getHeartRate,130,13,25]; @symbol_return<0> = [Number,130,31,37]; ]
+    function getHeartRate() as Number {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_130_38_133_4_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 131 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_130_38_133_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_130_38_133_4_stop" ]
+        %heartrateIterator.1 = local;
+        symbol [ heartrateIterator %heartrateIterator.1 131 12 29 ];
+        symbol [ Toybox %tmp.2 131 32 38 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ ActivityMonitor %tmp.3 131 39 54 ];
+        %tmp.3 = getv %tmp.2 :ActivityMonitor;
+        symbol [ getHeartRateHistory %tmp.4 131 55 74 ];
+        %tmp.4 = getv function %tmp.3 :getHeartRateHistory;
+        %tmp.5 = 1;
+        %tmp.6 = true;
+        %tmp.7 = invoke %tmp.3 %tmp.4(%tmp.5, %tmp.6);
+        lputv %heartrateIterator.1 %tmp.7;
+        symbol [ heartrateIterator %heartrateIterator.1 131 12 29 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 132 8 ]
+        %tmp.8 = lgetv %heartrateIterator.1;
+        symbol [ heartrateIterator %tmp.8 132 15 32 ];
+        symbol [ next %tmp.9 132 33 37 ];
+        %tmp.9 = getv function %tmp.8 :next;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        symbol [ heartRate %tmp.11 132 40 49 ];
+        %tmp.11 = getv %tmp.10 :heartRate;
+        ret %tmp.11;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_130_38_133_4_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 135; @symbol_functiondef = [getHeartRateString,135,13,31]; @symbol_return<0> = [String,135,37,43]; ]
+    function getHeartRateString() as String {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_135_44_137_4_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 136 8 ]
+        %tmp.1 = self;
+        symbol [ getHeartRate %tmp.2 136 15 27 ];
+        %tmp.2 = getv function %tmp.1 :getHeartRate;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ format %tmp.4 136 30 36 ];
+        %tmp.4 = getv function %tmp.3 :format;
+        %tmp.5 = "%d";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        ret %tmp.6;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_135_44_137_4_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 139; @symbol_functiondef = [getSteps,139,13,21]; @symbol_return<0> = [Number,139,27,33]; ]
+    function getSteps() as Number or Null {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_139_42_141_4_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 140 4 ]
+        symbol [ Toybox %tmp.2 140 11 17 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ ActivityMonitor %tmp.3 140 18 33 ];
+        %tmp.3 = getv %tmp.2 :ActivityMonitor;
+        symbol [ getInfo %tmp.4 140 34 41 ];
+        %tmp.4 = getv function %tmp.3 :getInfo;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ steps %tmp.6 140 44 49 ];
+        %tmp.6 = getv %tmp.5 :steps;
+        ret %tmp.6;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_139_42_141_4_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 143; @symbol_functiondef = [getStepsString,143,13,27]; @symbol_return<0> = [String,143,33,39]; ]
+    function getStepsString() as String {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_143_40_149_4_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 144 8 ]
+        [ "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_143_40_149_4_start" "_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_143_40_149_4_stop" ]
+        %steps.1 = local;
+        symbol [ steps %steps.1 144 12 17 ];
+        %tmp.1 = self;
+        symbol [ getSteps %tmp.2 144 20 28 ];
+        %tmp.2 = getv function %tmp.1 :getSteps;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %steps.1 %tmp.3;
+        symbol [ steps %steps.1 144 12 17 ];
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 145 8 ]
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_145_8_147_8_if_stmt:
+        %tmp.4 = lgetv %steps.1;
+        symbol [ steps %tmp.4 145 12 17 ];
+        %tmp.5 = null;
+        %tmp.6 = eq %tmp.4 %tmp.5;
+        bf %tmp.6 @_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_145_8_147_8_if_end;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_145_8_147_8_if_true:
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_145_27_147_8_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 146 12 ]
+        %tmp.7 = "-";
+        ret %tmp.7;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_145_27_147_8_stop:
+        goto @_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_145_8_147_8_if_end;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_145_8_147_8_if_end:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 148 8 ]
+        %tmp.8 = self;
+        symbol [ getSteps %tmp.9 148 15 23 ];
+        %tmp.9 = getv function %tmp.8 :getSteps;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        symbol [ format %tmp.11 148 26 32 ];
+        %tmp.11 = getv function %tmp.10 :format;
+        %tmp.12 = "%d";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        ret %tmp.13;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_143_40_149_4_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 151; @symbol_functiondef = [getBattery,151,9,19]; @symbol_return<0> = [Float,151,25,30]; ]
+    function getBattery() as Float {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_151_31_153_0_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 152 4 ]
+        symbol [ Toybox %tmp.2 152 11 17 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ System %tmp.3 152 18 24 ];
+        %tmp.3 = getv %tmp.2 :System;
+        symbol [ getSystemStats %tmp.4 152 25 39 ];
+        %tmp.4 = getv function %tmp.3 :getSystemStats;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ battery %tmp.6 152 42 49 ];
+        %tmp.6 = getv %tmp.5 :battery;
+        ret %tmp.6;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_151_31_153_0_stop:
+    }
+    [ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 155; @symbol_functiondef = [getBatteryString,155,9,25]; @symbol_return<0> = [String,155,31,37]; ]
+    function getBatteryString() as String {
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_155_38_157_0_start:
+[ "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc" 156 4 ]
+        %tmp.1 = self;
+        symbol [ getBattery %tmp.2 156 11 21 ];
+        %tmp.2 = getv function %tmp.1 :getBattery;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ format %tmp.4 156 24 30 ];
+        %tmp.4 = getv function %tmp.3 :format;
+        %tmp.5 = "%d";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        %tmp.7 = "%";
+        %tmp.8 = add %tmp.6 %tmp.7;
+        ret %tmp.8;
+_Users_noelliechatainsix_Documents_Coding_Personal_Projects_PatateWatch_source_PatateWatchView_mc_155_38_157_0_stop:
+    }
+}
+[ @file = "/Users/noelliechatainsix/Documents/Coding/Personal_Projects/PatateWatch/source/PatateWatchView.mc"; @line = 1; ]
+<init> {
+}
